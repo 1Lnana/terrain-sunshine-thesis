@@ -1,0 +1,17 @@
+# Local data and full experiment outputs are not uploaded.
+/data/
+/output/
+/user_runs/
+/.vscode/
+/.codex/
+/.agents/
+/.aws/
+/.env
+/.env.*
+*.class
+*.jar
+__pycache__/
+*.pyc
+/build-review/
+/review-check-output/
+# Curated text evidence is copied explicitly into review_evidence/.
