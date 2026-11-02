@@ -1,0 +1,13 @@
+{
+  "correctness_pass":true,
+  "binary_regression_checked":false,
+  "binary_regression_matches":null,
+  "mismatches":0,
+  "frozen_block_size":16,
+  "parameter_selection_performed":false,
+  "baseline_median_total_sec":4.608757300,
+  "block_median_total_sec":1.582875200,
+  "saving_ratio":0.656550541292,
+  "all_paired_repeats_faster":true,
+  "performance_gate_pass":true
+}

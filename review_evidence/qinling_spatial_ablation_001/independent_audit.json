@@ -1,0 +1,62 @@
+{
+  "status": "VERIFIED_S3",
+  "files": 12,
+  "pixels_per_file": 16384,
+  "fingerprints_before_S4_edits": 18,
+  "metrics": {
+    "fixed_1min": {
+      "median_total_sec": 47.642180601,
+      "spatial_samples": 1448174229,
+      "block_size": 0,
+      "skipped_samples": 0,
+      "block_tests": 0,
+      "index_payload_bytes": 0,
+      "MAE_from_csv_min": 0.0,
+      "MAX_from_csv_min": 0.0,
+      "error_gt1_pixels": 0
+    },
+    "block16fixed_1min": {
+      "median_total_sec": 15.9661114,
+      "spatial_samples": 189688040,
+      "block_size": 16,
+      "skipped_samples": 1258486189,
+      "block_tests": 137331932,
+      "index_payload_bytes": 4761,
+      "MAE_from_csv_min": 0.0,
+      "MAX_from_csv_min": 0.0,
+      "error_gt1_pixels": 0
+    },
+    "binarylocal_30min": {
+      "median_total_sec": 3.9035904,
+      "spatial_samples": 110493448,
+      "block_size": 0,
+      "skipped_samples": 0,
+      "block_tests": 0,
+      "index_payload_bytes": 0,
+      "MAE_from_csv_min": 0.00250244140625,
+      "MAX_from_csv_min": 18.0,
+      "error_gt1_pixels": 6
+    },
+    "block16binarylocal_30min": {
+      "median_total_sec": 1.4541499,
+      "spatial_samples": 17275977,
+      "block_size": 16,
+      "skipped_samples": 93217471,
+      "block_tests": 10665319,
+      "index_payload_bytes": 4761,
+      "MAE_from_csv_min": 0.00250244140625,
+      "MAX_from_csv_min": 18.0,
+      "error_gt1_pixels": 6
+    }
+  },
+  "runtime_ratios": {
+    "space_only": 2.9839564191566392,
+    "time_only": 12.204707901986847,
+    "combined": 32.76290883147604,
+    "space_given_binary": 2.6844484189697364,
+    "time_given_block": 10.97968744487759
+  },
+  "fixed_space_saving_percent": 66.48744621134139,
+  "binary_space_saving_percent": 62.74839952470423,
+  "limitation": "fixed-space pair matches fixed1; time/combined runtime ratios do not claim equal accuracy; Qinling winter only; no new Java runs"
+}

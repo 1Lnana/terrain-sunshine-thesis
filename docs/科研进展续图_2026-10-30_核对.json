@@ -1,0 +1,19 @@
+{
+  "purpose": "illustrated research progress continuation, not measurement figures",
+  "tool": "built-in image_gen",
+  "style_reference": "docs/科研进展续图_2026-10-28.png",
+  "verified_key_metrics": [
+    "binary 4.639/3.419/3.190 sec; saving6.69%; queries10.54%",
+    "three-day48.790/15.885 sec; MAX2/18min",
+    "512 fixed10 61.785/MAE3.1093; guard61.891/MAE0.002220",
+    "five widths2.347/1.622/1.396/1.500/1.997sec",
+    "ablation47.642/15.966/3.904/1.454sec",
+    "winter61.61%/summer65.66%/Huabei76.64%; Huabei4.399->1.028sec"
+  ],
+  "state": "Jianghuai prepared only; spatial512 not prepared; fixed1 conditional; temporalMAX18 retained",
+  "source_audit": "user_runs/huabei_spatial_spring_001/independent_audit.json",
+  "images": {
+    "docs/科研进展续图_2026-10-30_时间与验证.png": "9e0d66dd6dfd0ef0eec4b158bf7dd0b3fbc6b60a92b9aa78598b785c24eae612",
+    "docs/科研进展续图_2026-10-30_空间筛选.png": "f4a7f2737e02c5da043ddb8b5e3e860a85b41102c7ec9d588a7360750ba5c310"
+  }
+}

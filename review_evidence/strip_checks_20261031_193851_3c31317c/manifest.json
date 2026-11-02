@@ -1,0 +1,10 @@
+﻿{
+    "scope":  "synthetic_three_way_correctness_only",
+    "output":  "D:\\毕业论文\\user_runs\\strip_checks_20261031_193851_3c31317c",
+    "run_exit":  0,
+    "protected_files":  62,
+    "protected_unchanged":  true,
+    "old_classes_not_used":  true,
+    "performance_measured":  false,
+    "novelty_established":  false
+}

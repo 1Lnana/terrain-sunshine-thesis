@@ -1,0 +1,135 @@
+[
+  {
+    "file": "00_累计实验总览.png",
+    "title": "累计实验总览",
+    "category": "总览",
+    "sources": [],
+    "takeaway": "先看总览，再按主题查看二分法、地形、空间、季节、规模与误差证据。"
+  },
+  {
+    "file": "01_二分法对照.png",
+    "title": "二分法与两种局部规则",
+    "category": "时间方法",
+    "sources": [
+      "user_runs/qinling_binary_local_001/summary.csv"
+    ],
+    "takeaway": "二分与条件细化PSD相同，本批查询少10.54%、中位省时6.69%；MAX18分钟保留。"
+  },
+  {
+    "file": "02_不同地形春季对照.png",
+    "title": "山区、平原、丘陵的春季对照",
+    "category": "不同地形",
+    "sources": [
+      "user_runs/qinling_spring_001/summary.csv",
+      "user_runs/huabei_spring_001/summary.csv",
+      "user_runs/jianghuai_spring_001/summary.csv"
+    ],
+    "takeaway": "三个地区的春季累计PSD均与条件参考一致；空间筛选和二分法的跨区结论尚不能由此推出。"
+  },
+  {
+    "file": "03_秦岭三季对照.png",
+    "title": "同版本的春夏冬表现",
+    "category": "季节与复用",
+    "sources": [
+      "user_runs/qinling_three_day_001/day_2023-03-21/summary.csv",
+      "user_runs/qinling_three_day_001/day_2023-06-21/summary.csv",
+      "user_runs/qinling_three_day_001/day_2023-12-21/summary.csv"
+    ],
+    "takeaway": "春夏累计结果与参考一致；冬季条件细化MAX18分钟，组合MAX9分钟，收益与误差需要共同判断。"
+  },
+  {
+    "file": "04_空间块宽敏感性.png",
+    "title": "4—64格参数敏感性",
+    "category": "空间筛选",
+    "sources": [
+      "user_runs/qinling_spatial_sensitivity_001/summary.csv",
+      "user_runs/qinling_spatial_sensitivity_001/spatial_repeat_comparison.csv"
+    ],
+    "takeaway": "块越小不一定越快；16格在五个候选中总成本最低，继续固定16做迁移验证。"
+  },
+  {
+    "file": "05_时空四组消融与换季.png",
+    "title": "时空消融与空间换季收益",
+    "category": "空间筛选",
+    "sources": [
+      "user_runs/qinling_spatial_ablation_001/summary.csv",
+      "user_runs/qinling_spatial_block_001/summary.csv",
+      "user_runs/qinling_spatial_summer_001/summary.csv"
+    ],
+    "takeaway": "空间在固定法和二分法上均有效；组合有时间误差，不能将32.76倍称为等精度加速。"
+  },
+  {
+    "file": "06_512规模精度成本.png",
+    "title": "512规模下的精度—成本",
+    "category": "规模验证",
+    "sources": [
+      "user_runs/qinling_512_fixed_local_001/summary.csv"
+    ],
+    "takeaway": "与固定10分近似成本下平均误差更低，但固定5分的MAX更小，保留误差取舍。"
+  },
+  {
+    "file": "07_地平线单日与三日复用.png",
+    "title": "地平线建表及三日复用",
+    "category": "季节与复用",
+    "sources": [
+      "user_runs/qinling_horizon_001/summary.csv",
+      "user_runs/qinling_three_day_001/summary.csv"
+    ],
+    "takeaway": "三日复用已经完成；本批直接时间法仍较快，地平线1°的最大误差更低。"
+  },
+  {
+    "file": "08_模块演进与补查.png",
+    "title": "模块演进与补查证据",
+    "category": "时间方法",
+    "sources": [
+      "user_runs/qinling_modules_001/summary.csv",
+      "user_runs/qinling_winter_001/summary.csv",
+      "user_runs/qinling_guard_comparison_001/summary.csv"
+    ],
+    "takeaway": "早期模块、冬季反例与保护补查均保留；不同版本不混称同一最终方法。"
+  },
+  {
+    "file": "09_真实三类地形DEM.png",
+    "title": "三个实际样区的DEM",
+    "category": "不同地形",
+    "sources": [
+      "user_runs/qinling_90m_128_20261024_132644_824423/dem.asc",
+      "user_runs/qinling_90m_128_20261024_132644_824423/metadata.json",
+      "user_runs/huabei_plain_90m_128_20261026_144020_498379/dem.asc",
+      "user_runs/huabei_plain_90m_128_20261026_144020_498379/metadata.json",
+      "user_runs/jianghuai_hills_90m_128_20261026_150526_895259/dem.asc",
+      "user_runs/jianghuai_hills_90m_128_20261026_150526_895259/metadata.json"
+    ],
+    "takeaway": "直接展示实际高程与各自色标，避免用示意图冒充地形数据。"
+  },
+  {
+    "file": "10_冬季真实误差空间分布.png",
+    "title": "冬季误差的真实空间分布",
+    "category": "误差与边界",
+    "sources": [
+      "user_runs/qinling_winter_001/fixed_1min_r1/psd.csv",
+      "user_runs/qinling_tradeoff_001/adaptive_30min_r1/psd.csv",
+      "user_runs/qinling_binary_local_001/binarylocal_30min_r1/psd.csv",
+      "user_runs/qinling_tradeoff_001/guardcombined_30min_r1/psd.csv"
+    ],
+    "takeaway": "平均误差小不意味着最坏像元误差小；稀疏的18分钟问题继续显式报告。"
+  },
+  {
+    "file": "11_128冬季固定步长取舍.png",
+    "title": "128冬季固定步长的取舍",
+    "category": "时间方法",
+    "sources": [
+      "user_runs/qinling_tradeoff_001/summary.csv"
+    ],
+    "takeaway": "方法需要同时按运行成本、MAE与MAX评估，不能只挑一个更好看的指标。"
+  },
+  {
+    "file": "12_邻点相似性与复用边界.png",
+    "title": "邻点复用的限制分析",
+    "category": "误差与边界",
+    "sources": [
+      "user_runs/neighbor_boundary_readonly_001/summary.json"
+    ],
+    "takeaway": "同窗数约99%不等于可直接复用；严格边界接近的比例低，尚无安全性或加速证据。"
+  }
+]

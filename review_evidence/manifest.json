@@ -1,0 +1,174 @@
+{
+  "snapshot_date": "2026-11-02",
+  "scope": "selected_existing_records_no_new_experiments",
+  "records": [
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/checks.log",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/checks.log",
+      "bytes": 822,
+      "sha256": "679c0f2ce2f3d61a0bfca7cde8d81114bb059589f9665634b841c0d7b645fc65",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/compile.log",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/compiled_sources.csv",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/compiled_sources.csv",
+      "bytes": 1369,
+      "sha256": "8230e37da959815ffaaefd042f65223529e612398c97aa7785a055cbe002a50b",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/independent_audit.json",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/independent_audit.json",
+      "bytes": 5417,
+      "sha256": "ea392bea82582a3e765425545d466e7e5b4da2fe3cabd75bac5d01e27ab4127c",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/java_version.log",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/java_version.log",
+      "bytes": 563,
+      "sha256": "c8eab5ce87eeb720b4398648b7aaeda10f8ccee1202186c0960cdf1f37dc8042",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/manifest.json",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/manifest.json",
+      "bytes": 343,
+      "sha256": "87077dcb7a56350b2e846b78df546b7fca0eb10cd5125d8023c2d6d7bcfb8b9a",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/protected_after.csv",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/protected_after.csv",
+      "bytes": 7583,
+      "sha256": "b9cbcb0cb9562ea8b35b675b05513388c9d4ebde974ed2018ce9a65789f714cf",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/protected_before.csv",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/protected_before.csv",
+      "bytes": 7583,
+      "sha256": "b9cbcb0cb9562ea8b35b675b05513388c9d4ebde974ed2018ce9a65789f714cf",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/results/cases.csv",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/results/cases.csv",
+      "bytes": 340107,
+      "sha256": "893fe65acd0528a7267f45f38fd542b02110d541dfb0af2bdf8fc1fe1fe3e211",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/results/directions.csv",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/results/directions.csv",
+      "bytes": 734,
+      "sha256": "fb967b1e3d3a870108bae1fb834824b807da8197fa073f3ed02b7eb559e4090f",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/strip_checks_20261031_193851_3c31317c/results/summary.properties",
+      "repository_path": "review_evidence/strip_checks_20261031_193851_3c31317c/results/summary.properties",
+      "bytes": 310,
+      "sha256": "ca9b123bf152d8c257fcfd9ccda7bab6988d8712c258030b73c672b190cbc387",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/qinling_binary_local_001/summary.csv",
+      "repository_path": "review_evidence/qinling_binary_local_001/summary.csv",
+      "bytes": 947,
+      "sha256": "5acb2c2c5bba15d8a3ffb7cf534e0ddc5345152961003af3c2d9d654d32c796c",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/qinling_spatial_sensitivity_001/independent_audit.json",
+      "repository_path": "review_evidence/qinling_spatial_sensitivity_001/independent_audit.json",
+      "bytes": 2245,
+      "sha256": "1aed84d5d3ca5f1a93ecd3c69d4900cfd68904425f27cc7b37795de8330899c4",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/qinling_spatial_sensitivity_001/summary.csv",
+      "repository_path": "review_evidence/qinling_spatial_sensitivity_001/summary.csv",
+      "bytes": 1538,
+      "sha256": "a4dee15ee60cc820dd30232aba99a1f8797adc33a34a8e305d593d8288cc3835",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/qinling_spatial_ablation_001/independent_audit.json",
+      "repository_path": "review_evidence/qinling_spatial_ablation_001/independent_audit.json",
+      "bytes": 1955,
+      "sha256": "5a3d70d9b1357c2778b00f7d7fbd10789fddfdf1a1e2cc29a3ff539aaeb8f64f",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/qinling_spatial_ablation_001/spatial_ablation.json",
+      "repository_path": "review_evidence/qinling_spatial_ablation_001/spatial_ablation.json",
+      "bytes": 479,
+      "sha256": "11fb1fb28853bad976426a89c7e70b9408843f26e317f648d2144d6650801bd8",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/qinling_spatial_ablation_001/summary.csv",
+      "repository_path": "review_evidence/qinling_spatial_ablation_001/summary.csv",
+      "bytes": 1119,
+      "sha256": "12835e4574736b3e0c0e546807586720946ca3c2c5ad0fb4fef1100fcf30d0f9",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/qinling_spatial_summer_001/independent_audit.json",
+      "repository_path": "review_evidence/qinling_spatial_summer_001/independent_audit.json",
+      "bytes": 1099,
+      "sha256": "dfdf2ae935b7e0b2918458c149ba386a7760dc74aeb83fa2116033be86488977",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/qinling_spatial_summer_001/spatial_transfer.json",
+      "repository_path": "review_evidence/qinling_spatial_summer_001/spatial_transfer.json",
+      "bytes": 373,
+      "sha256": "7ab08434348d968a5d78b22d56672e95556e12e0234fff87f5e06309180b4d7b",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/qinling_spatial_summer_001/summary.csv",
+      "repository_path": "review_evidence/qinling_spatial_summer_001/summary.csv",
+      "bytes": 749,
+      "sha256": "7129527b7ee7d2a5f79ef86cba6744e6121623f7b0cc7499ef54ad043567732f",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/huabei_spatial_spring_001/independent_audit.json",
+      "repository_path": "review_evidence/huabei_spatial_spring_001/independent_audit.json",
+      "bytes": 1288,
+      "sha256": "f1a874a90b4dcd9821c3ae436a2431721158deeff6cc90225b2fa72de227d861",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/huabei_spatial_spring_001/spatial_transfer.json",
+      "repository_path": "review_evidence/huabei_spatial_spring_001/spatial_transfer.json",
+      "bytes": 373,
+      "sha256": "17bdce19fdcfe0296edb5372bdfbad182bfb1f3f8021c468f7ceaffdf2e6610c",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/huabei_spatial_spring_001/summary.csv",
+      "repository_path": "review_evidence/huabei_spatial_spring_001/summary.csv",
+      "bytes": 746,
+      "sha256": "0e86cc10902c7f558faf8617ebda5c2f82f7fac077371c5af7de8f929852753a",
+      "byte_identical": true
+    },
+    {
+      "original_path": "user_runs/qinling_512_fixed_local_001/summary.csv",
+      "repository_path": "review_evidence/qinling_512_fixed_local_001/summary.csv",
+      "bytes": 1126,
+      "sha256": "82202933cd85e9aa99a1805d71a6db5165e2ab86bbdf5df55ac6d03ea026d8ec",
+      "byte_identical": true
+    }
+  ]
+}

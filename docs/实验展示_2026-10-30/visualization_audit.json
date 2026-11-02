@@ -1,0 +1,368 @@
+{
+  "type": "saved_evidence_visualization_only",
+  "figures": 13,
+  "summaries_indexed": 32,
+  "source_files_hashed": 242,
+  "median_checks": [
+    {
+      "run": "qinling_binary_local_001",
+      "method": "binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_binary_local_001",
+      "method": "plainlocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_binary_local_001",
+      "method": "guardlocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spring_001",
+      "method": "fixed_1min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spring_001",
+      "method": "fixed_5min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spring_001",
+      "method": "fixed_10min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spring_001",
+      "method": "adaptive_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spring_001",
+      "method": "guardlocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spring_001",
+      "method": "guardcombined_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "huabei_spring_001",
+      "method": "fixed_1min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "huabei_spring_001",
+      "method": "fixed_5min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "huabei_spring_001",
+      "method": "fixed_10min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "huabei_spring_001",
+      "method": "adaptive_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "huabei_spring_001",
+      "method": "guardlocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "huabei_spring_001",
+      "method": "guardcombined_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "jianghuai_spring_001",
+      "method": "fixed_1min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "jianghuai_spring_001",
+      "method": "fixed_5min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "jianghuai_spring_001",
+      "method": "fixed_10min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "jianghuai_spring_001",
+      "method": "adaptive_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "jianghuai_spring_001",
+      "method": "guardlocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "jianghuai_spring_001",
+      "method": "guardcombined_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_sensitivity_001",
+      "method": "binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_sensitivity_001",
+      "method": "block4binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_sensitivity_001",
+      "method": "block8binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_sensitivity_001",
+      "method": "block16binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_sensitivity_001",
+      "method": "block32binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_sensitivity_001",
+      "method": "block64binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_ablation_001",
+      "method": "fixed_1min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_ablation_001",
+      "method": "block16fixed_1min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_ablation_001",
+      "method": "binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_ablation_001",
+      "method": "block16binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_summer_001",
+      "method": "binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_summer_001",
+      "method": "block16binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_block_001",
+      "method": "binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_block_001",
+      "method": "block8binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_block_001",
+      "method": "block16binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_spatial_block_001",
+      "method": "block32binarylocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_512_fixed_local_001",
+      "method": "fixed_5min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_512_fixed_local_001",
+      "method": "fixed_10min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_512_fixed_local_001",
+      "method": "fixed_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_512_fixed_local_001",
+      "method": "guardlocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_horizon_001",
+      "method": "horizon_1deg",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_horizon_001",
+      "method": "horizon_2deg",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_horizon_001",
+      "method": "adaptive_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_horizon_001",
+      "method": "guardlocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_horizon_001",
+      "method": "guardcombined_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_modules_001",
+      "method": "adaptive_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_modules_001",
+      "method": "solar_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_modules_001",
+      "method": "local_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_modules_001",
+      "method": "combined_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_winter_001",
+      "method": "fixed_1min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_winter_001",
+      "method": "adaptive_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_winter_001",
+      "method": "solar_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_winter_001",
+      "method": "local_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_winter_001",
+      "method": "combined_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_guard_comparison_001",
+      "method": "local_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_guard_comparison_001",
+      "method": "guardlocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_guard_comparison_001",
+      "method": "combined_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_guard_comparison_001",
+      "method": "guardcombined_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_tradeoff_001",
+      "method": "fixed_5min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_tradeoff_001",
+      "method": "fixed_10min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_tradeoff_001",
+      "method": "fixed_20min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_tradeoff_001",
+      "method": "fixed_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_tradeoff_001",
+      "method": "adaptive_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_tradeoff_001",
+      "method": "guardlocal_30min",
+      "runtime_median_matches": true
+    },
+    {
+      "run": "qinling_tradeoff_001",
+      "method": "guardcombined_30min",
+      "runtime_median_matches": true
+    }
+  ],
+  "java_experiments_run": false,
+  "visual_inspection": "contact sheet covering 13 figures and detailed panels inspected; line labels adjusted to stay within panel; grid north labeled explicitly",
+  "limits": [
+    "fixed1 conditional reference",
+    "no cross-batch speed ratios",
+    "spatial transfer to independent terrain pending",
+    "16 is not a global optimum"
+  ],
+  "generator_sha256": "22d76b001a446571e388d2e248732923a5669a48c4cd0dfc2bc3385d11f1260f",
+  "html_local_links": "all resolved",
+  "gallery_javascript": "node --check passed; browser click test not performed",
+  "poster_dimensions": [
+    2000,
+    16900
+  ],
+  "figure_sha256": {
+    "00_累计实验总览.png": "13d566389aebb6919e6186c6de6fae2542e01b014fd2ad87ab8f1766dc638b1f",
+    "01_二分法对照.png": "ccb76cdaddd31c6f488824c6c83d56c513b4cd29c972b9661dfad618d7e601ec",
+    "02_不同地形春季对照.png": "61fbe53c101728d710d15156a4f808defe89c1ac2f96094fda5e0508e2a9b466",
+    "03_秦岭三季对照.png": "3e18e471d5156fb17691b3036ce175972a423da92c20c980f3d28ff97d29ae75",
+    "04_空间块宽敏感性.png": "e2bfa9993fa2367770082865e6d39036900b90b1b9a729305d97c3316b68b913",
+    "05_时空四组消融与换季.png": "ff71fa7d57ecf310b39e7ed96c798c2fd46a42fce877e257cadfaef6a62fe762",
+    "06_512规模精度成本.png": "7ca6a277e246de829fcd73a14cce91589c8c0feb812a7539c20f701b7cff8aed",
+    "07_地平线单日与三日复用.png": "73e392348cf3d91644ad481a01a4927811c0bda8bda7dc67f29abbc01502ba71",
+    "08_模块演进与补查.png": "e885633d8908a66713ecbb2e26631f9af9af32b513bb7f985015d6b071573cbc",
+    "09_真实三类地形DEM.png": "f7b9c595f7ae07950cf3e327a2e86c544519d6170453d670f5c540c9eb47793d",
+    "10_冬季真实误差空间分布.png": "16c2bdb65a06b9150f7dfb0a7d74010b789929883b7a3b6983c642034a6b2e77",
+    "11_128冬季固定步长取舍.png": "00b6206bc17118bf498eadf63f40a2a9f5e15651b0c0870771a4d97b39c44eda",
+    "12_邻点相似性与复用边界.png": "47803dd74398204ad2366bbf29d764861e7ac84306dfb13bbc505632710d21e3"
+  }
+}

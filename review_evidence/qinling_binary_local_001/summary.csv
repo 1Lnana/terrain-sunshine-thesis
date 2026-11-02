@@ -1,0 +1,4 @@
+method,runtime_sec,runtime_min_sec,runtime_max_sec,repeats,rayCalls,spatialSamples,valid_pixels,unknown_count,fallback_pixels,common_valid_pixels,MAE_min,MAX_abs_error_min,error_gt1_ratio,quarter_probes,refinement_queries,short_intervals,long_intervals,guard_queries,preprocess_sec,query_sec,table_payload_bytes,horizon_directions,horizon_spatial_samples,horizon_time_queries
+binarylocal_30min,3.190044500,3.123123300,3.706871100,3,862525,110493448,16384,0,140,16384,0.002502441406,18.000000000000,0.000366210938,0,114201,0,0,79380,0.000000000,3.190044500,0,0,0,0
+plainlocal_30min,4.639418900,4.145407800,4.721535400,3,1148675,142102683,16384,0,140,16384,0.002258300781,18.000000000000,0.000305175781,0,400351,0,0,79380,0.000000000,4.639418900,0,0,0,0
+guardlocal_30min,3.418912200,3.369308500,3.890221300,3,964195,121868020,16384,0,140,16384,0.002502441406,18.000000000000,0.000366210938,29393,186478,0,0,79380,0.000000000,3.418912200,0,0,0,0

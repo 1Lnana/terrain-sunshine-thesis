@@ -1,0 +1,90 @@
+{
+  "sources": [
+    {
+      "file": "src/AngleReference.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\T01_controlled\\src\\AngleReference.java",
+      "sha256": "dbd49a931903183b8bea2e7bb1a0b0aa4405b22f84b52d56ee6437cc56adb716",
+      "content_changed": false
+    },
+    {
+      "file": "src/AsciiGrid.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\T01_controlled\\src\\AsciiGrid.java",
+      "sha256": "503773ed110ea7d783846015790dc22c0244b67dec3f1070216f9a895d4452a0",
+      "content_changed": false
+    },
+    {
+      "file": "src/AsciiGridReader.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\T01_controlled\\src\\AsciiGridReader.java",
+      "sha256": "0e10fee3fe9c2aad9d1e36853bb83132c5505a4deeb0c39b4ab99dc40a8ab5bc",
+      "content_changed": false
+    },
+    {
+      "file": "src/ControlledVisibility.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\T01_controlled\\src\\ControlledVisibility.java",
+      "sha256": "edb659c351146e586d7e2e0d60f31b4f0cd034583ffa96d02258b1faf6435e21",
+      "content_changed": false
+    },
+    {
+      "file": "src/CoordinateContract.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\T01_controlled\\src\\CoordinateContract.java",
+      "sha256": "3715f9fe72b4af39f2913705e42f2fd776a4cfbe3918934113064149de3526ec",
+      "content_changed": false
+    },
+    {
+      "file": "src/RunStatistics.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\T01_controlled\\src\\RunStatistics.java",
+      "sha256": "a6aa78b355b422357365ec492d5c58e7aaaee34e60d860e5a2109c7c46e4e195",
+      "content_changed": false
+    },
+    {
+      "file": "src/SearchConfig.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\T01_controlled\\src\\SearchConfig.java",
+      "sha256": "598d2815a594912c11c84f8754956ff625d8763704cb465cc44bed5c98a272a8",
+      "content_changed": false
+    },
+    {
+      "file": "src/VisibilityResult.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\T01_controlled\\src\\VisibilityResult.java",
+      "sha256": "09f4a2ce400a00a4c0443a6aca222f8d0bb269365459730d59e98455afe01678",
+      "content_changed": false
+    },
+    {
+      "file": "src/VisibilityStatus.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\T01_controlled\\src\\VisibilityStatus.java",
+      "sha256": "4b36f439406c52372f69d3d59cf18fcfdf10dad962f076d182e098d3ed323219",
+      "content_changed": false
+    },
+    {
+      "file": "src/ZeroPolicy.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\T01_controlled\\src\\ZeroPolicy.java",
+      "sha256": "4fcd4a348095059178d247afb025ab61cb3a60f6d928e6cf18a4fdc7608c4de8",
+      "content_changed": false
+    },
+    {
+      "file": "src/TimeStepBaseline.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\experiments\\time_step_baseline\\src\\TimeStepBaseline.java",
+      "sha256": "d90acb3bf2aee9f867b523e3c014fa60210b01f9fd11bb16509c825ec0be72c2",
+      "content_changed": false
+    },
+    {
+      "file": "src/AdaptiveTimeV1.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\experiments\\adaptive_time_v1\\src\\AdaptiveTimeV1.java",
+      "sha256": "7569475731396045ef664cc13f60ba7058270539dee2ac8b6d10e12f2d449245",
+      "content_changed": false
+    },
+    {
+      "file": "src/AdaptiveV1Checks.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\experiments\\adaptive_time_v1\\src\\AdaptiveV1Checks.java",
+      "sha256": "dc9eed40516377a056672227d561473aa3fc4e6fa95db7c095ee7cdcdd1b195a",
+      "content_changed": false
+    },
+    {
+      "file": "src/AdaptiveV1Experiment.java",
+      "historical_source": "D:\\毕业论文_历史资料\\2026-10-21_整理前\\experiments\\adaptive_time_v1\\src\\AdaptiveV1Experiment.java",
+      "sha256": "9a51411d6a3bd9f92d97984fb2defd72a19c832908f577c8c658b28d818e6627",
+      "content_changed": false
+    }
+  ],
+  "DEM_sha256": "a4698a3d0ae6fb1c67a17a319b7e1b5568e8944fce5192c11e818907ae88d7d9",
+  "note": "当前共14个Java文件：原固定基准11个加V1原件3个，均保持历史字节；本轮只准备复现，未编译或运行。"
+}

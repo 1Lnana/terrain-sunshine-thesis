@@ -1,0 +1,3 @@
+method,runtime_sec,runtime_min_sec,runtime_max_sec,repeats,rayCalls,spatialSamples,valid_pixels,unknown_count,fallback_pixels,common_valid_pixels,MAE_min,MAX_abs_error_min,error_gt1_ratio,quarter_probes,refinement_queries,short_intervals,long_intervals,guard_queries,preprocess_sec,query_sec,table_payload_bytes,horizon_directions,horizon_spatial_samples,horizon_time_queries
+binarylocal_30min,4.399329200,4.398585199,4.449131300,3,927941,173287091,16384,0,0,16384,0.000000000000,0.000000000001,0.000000000000,0,108741,0,0,0,0.000000000,4.399329200,0,0,0,0
+block16binarylocal_30min,1.027742400,1.005205501,1.036968800,3,927941,2724130,16384,0,0,16384,0.000000000000,0.000000000001,0.000000000000,0,108741,0,0,0,0.000564300,1.027389700,0,0,0,0

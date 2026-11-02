@@ -1,0 +1,36 @@
+{
+  "status": "VERIFIED_SUMMER_TRANSFER",
+  "psd_files_identical": 6,
+  "pixels_per_file": 16384,
+  "fingerprints": 17,
+  "frozen_block_size": 16,
+  "parameter_selection_performed": false,
+  "saving_percent": 65.65505412923349,
+  "runtime_ratio": 2.911636558586552,
+  "metrics": {
+    "binarylocal_30min": {
+      "median_total_sec": 4.6087573,
+      "spatial_samples": 175468347,
+      "block_size": 0,
+      "skipped_samples": 0,
+      "block_tests": 0,
+      "index_payload_bytes": 0,
+      "MAE_from_csv_min": 0.0,
+      "MAX_from_csv_min": 0.0,
+      "error_gt1_pixels": 0
+    },
+    "block16binarylocal_30min": {
+      "median_total_sec": 1.5828752,
+      "spatial_samples": 18659279,
+      "block_size": 16,
+      "skipped_samples": 156809068,
+      "block_tests": 15470043,
+      "index_payload_bytes": 4761,
+      "MAE_from_csv_min": 0.0,
+      "MAX_from_csv_min": 0.0,
+      "error_gt1_pixels": 0
+    }
+  },
+  "binary_regression_checked": false,
+  "scope": "same Qinling ROI, new date only; not an independent geography or general accuracy guarantee"
+}
