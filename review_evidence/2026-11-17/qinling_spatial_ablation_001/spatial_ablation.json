@@ -1,0 +1,10 @@
+{
+  "correctness_pass":true,
+  "binary_regression_matches":true,
+  "fixed_reference_common_fields_match":true,
+  "mismatches":0,
+  "frozen_block_size":16,
+  "parameter_selection_performed":false,
+  "median_total_sec":{"fixed":47.642180601,"block_fixed":15.966111400,"binary":3.903590400,"block_binary":1.454149900},
+  "runtime_ratios":{"space_only":2.983956419,"time_only":12.204707902,"combined":32.762908831,"space_given_binary":2.684448419,"time_given_block":10.979687445}
+}

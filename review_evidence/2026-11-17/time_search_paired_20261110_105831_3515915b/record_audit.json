@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "run": "user_runs\\time_search_paired_20261110_105831_3515915b",
+  "new_scientific_queries_in_audit": 0,
+  "recorded_experiment_queries": 5046188,
+  "timing_rows": 8,
+  "formal_pairs": 3,
+  "formal_pixel_scalar_checks": 98304,
+  "integration_nodes_reconstructed": 1261547,
+  "candidate_nodes_equal_prior": true,
+  "accuracy": {
+    "binarylocal_30min": {
+      "valid_pixels": 16384,
+      "max_duration_error_min": 0.0,
+      "first_boundary_max_error_min": 0.0,
+      "last_boundary_max_error_min": 0.0,
+      "dual_pixels": 0,
+      "dark_pixels": 0,
+      "limited5_pixels": 0
+    },
+    "two_boundary_limited5": {
+      "valid_pixels": 16384,
+      "max_duration_error_min": 0.0,
+      "first_boundary_max_error_min": 0.0,
+      "last_boundary_max_error_min": 0.0,
+      "dual_pixels": 16384,
+      "dark_pixels": 0,
+      "limited5_pixels": 0
+    }
+  },
+  "all_pairs_candidate_faster": true,
+  "paired_saved_fraction_range": [
+    0.6645848997790472,
+    0.6777259495002463
+  ],
+  "median_time_saved_fraction": 0.6645848997790472,
+  "manifest_fingerprints_checked": 230,
+  "protected_unchanged": 362,
+  "build": {
+    "sources": 59,
+    "classes": 152
+  },
+  "audit_script_sha256": "8c45c4b547a5a673b8b9ee9ab8e7271f44fb4f5cc108e29a80ce358c7b52cf8b",
+  "limits": [
+    "Audit parses saved records; it does not independently recalculate terrain visibility.",
+    "Full node/edge validation covers diagnostic warmups; formal rounds retain scalar results only.",
+    "Fixed1 is a conditional reference; Huabei has no dark/limited5 branch coverage.",
+    "Three local pairs do not establish universal speedup or physical exactness."
+  ]
+}

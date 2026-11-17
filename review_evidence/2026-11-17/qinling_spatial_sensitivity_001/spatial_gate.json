@@ -1,0 +1,15 @@
+{
+  "correctness_pass":true,
+  "baseline_regression_matches":true,
+  "mismatches":0,
+  "baseline_median_total_sec":3.462860699,
+  "performance_gate_pass":true,
+  "selected_method":"block16binarylocal_30min",
+  "candidates":[
+    {"method":"block4binarylocal_30min","median_total_sec":2.346997499,"saving_ratio":0.322237391854,"all_paired_repeats_faster":true,"eligible":true,"index_payload_bytes":71289},
+    {"method":"block8binarylocal_30min","median_total_sec":1.622422400,"saving_ratio":0.531479161010,"all_paired_repeats_faster":true,"eligible":true,"index_payload_bytes":18225},
+    {"method":"block16binarylocal_30min","median_total_sec":1.395596901,"saving_ratio":0.596981506821,"all_paired_repeats_faster":true,"eligible":true,"index_payload_bytes":4761},
+    {"method":"block32binarylocal_30min","median_total_sec":1.500393101,"saving_ratio":0.566718608856,"all_paired_repeats_faster":true,"eligible":true,"index_payload_bytes":1296},
+    {"method":"block64binarylocal_30min","median_total_sec":1.996533700,"saving_ratio":0.423443830537,"all_paired_repeats_faster":true,"eligible":true,"index_payload_bytes":324}
+  ]
+}

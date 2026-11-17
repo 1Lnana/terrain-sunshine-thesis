@@ -1,0 +1,5 @@
+TIME_SEARCH_PAIRED_RECORD_PASS
+new_queries=5046188
+Both methods newly computed: 1 full warmup and 3 formal passes each. Same JVM, receiver loop, spatial oracle, statistics and timer scope.
+Warmups: full integration/evaluated nodes and boundary/window evaluation. Formal: scalar outputs saved for every pixel and repeat.
+Historical results used only after computation for regression. Fixed1 is a conditional reference. Huabei does not validate untriggered dark/limited5 branches.

@@ -1,0 +1,365 @@
+{
+  "status": "PASS",
+  "date": "2026-10-29",
+  "formal_method_batches": 15,
+  "daily_outputs": 45,
+  "unique_method_pixel_days": 245760,
+  "repeated_pixel_rows_checked": 737280,
+  "repeated_files_SHA256_checked": 120,
+  "trace_PSD_reintegrations": 135,
+  "DEM_sha256": "1509afca543cc4aafc80e12dfb62f6659aae583e65bc9f4bf4ff380982d017a1",
+  "input_and_reference_snapshots_match": true,
+  "preprocessing_charged_once": true,
+  "three_repetitions_consistent": true,
+  "aggregate_medians_recomputed": true,
+  "execution": {
+    "main_class": "ProjectedMultiDayExperiment",
+    "java": "D:/Develop/jdk-17.0.20.101-hotspot/bin/java.exe",
+    "vm_args": "-Xms256m -Xmx2g",
+    "debugger": false,
+    "config": "configs/qinling_three_day_comparison.properties",
+    "output": "user_runs/qinling_three_day_001",
+    "authorization": "Continuation following the user's request for assistant execution; no algorithm changes or 512 run."
+  },
+  "source_sha256_at_audit": {
+    "AdaptiveTimeV1.java": "7569475731396045ef664cc13f60ba7058270539dee2ac8b6d10e12f2d449245",
+    "AdaptiveTimeV2Local.java": "f7a9132742754fb705ff72819f9d2a993d00578b6cfbf6a094d74376ac5bc55e",
+    "AdaptiveV1Checks.java": "dc9eed40516377a056672227d561473aa3fc4e6fa95db7c095ee7cdcdd1b195a",
+    "AdaptiveV1Experiment.java": "9a51411d6a3bd9f92d97984fb2defd72a19c832908f577c8c658b28d818e6627",
+    "AdaptiveV2LocalChecks.java": "6d34e3ff2d97e3a3b98f8dee35a9aef484a3ce7509ac4e59d17c49dd4ed8bd6e",
+    "AngleReference.java": "17106d193dfb34470527e7e44453bfe14820fff063813cae7cdb09a606185f29",
+    "AsciiGrid.java": "853d527a6237f27651877a55d584780594bb613c85a67c31f25d00b1f14023a5",
+    "AsciiGridReader.java": "cb45a896950caf000ddec6d4b641644ab2829b8b5dea8197450db671c336fd96",
+    "ControlledVisibility.java": "edb659c351146e586d7e2e0d60f31b4f0cd034583ffa96d02258b1faf6435e21",
+    "CoordinateContract.java": "dab307299e5ac684c90786fe6b70fe0d04757045ff2602b97e4f03e3cb4bc98c",
+    "DarkCoarseGuardChecks.java": "fc854006c5a286f5118c2504487d99674096cd3dec5a7d9ac38d95c2af792b21",
+    "HorizonBaseline.java": "5050f9e0034ecda89f9ce5bc75f430b47db2df10d9ee1d5f53a05f0f9fd0457a",
+    "HorizonBaselineChecks.java": "cdbbcee54892e620903a7d59fe2bf03626b47f11f3018aa1d931581cd60a357d",
+    "HorizonDriverChecks.java": "8ad188523c54cf8b24fbab0d8ecbd0e06c5fa7c482fd2b3b7d9b3037b7659c9d",
+    "MultiDayReuseChecks.java": "001d5d14f17bbd394d91e9dfa989978bdf60d445ae2ccc130af9c3f7faf13e77",
+    "ProjectedBaselineExperiment.java": "278c8f448cf1a1298a49e9926e9b3974b12bee6c64d549a03baa74232a8d4350",
+    "ProjectedInputChecks.java": "4651f201ce9c0e2005cabf98fd553315f99310663c94b5eba61927f87815a8ec",
+    "ProjectedMultiDayExperiment.java": "c313af23c5934e7e3db4730890a4e5dff12bba0fa15c120a52b8be77bbf62d65",
+    "RunStatistics.java": "8d8cc0567134e588a4521732bf58ee0af624b50f5335ab25b340f0981c289677",
+    "SearchConfig.java": "e3230919a0c61dac0a4ce06a2a0f0c667304381cda3b0587fc78bb1406e2e985",
+    "SolarAdaptiveSampling.java": "39af423e1883d9f312ea061b98cdba082d1d7697c5a6c48d4b52e66e94f75a1b",
+    "SolarAdaptiveSamplingChecks.java": "d4ffff5055c884e332749c4c01c2d64f8ec7bd1994ac3c7a1b32203e505a3760",
+    "SunlightIntervalChecks.java": "2079220af4c89b7dd7fd5b5922958ff50554b7de9c33034c42ad38b4fa06c7d1",
+    "SunlightIntervalStats.java": "0340e5958ef01e8395efb9cabb168d03f4c1ee02a448bc1d2e181573ecf51db0",
+    "TimeStepBaseline.java": "b4822144f54ddb3bc52180daf44b590085c27ec43aa0db7a6562da72d2fee6f7",
+    "VisibilityResult.java": "832af0a4cb2599e28e80896c12507aacbf58b5b47eeae9d72269b17271879405",
+    "VisibilityStatus.java": "0ab0a32c98609657bdf58a8974520012d0d73dd25161355a938c6ac85affe1a5",
+    "WinterPixelDiagnostics.java": "cff80bc82e8108586d6954ab24616d3d3c6f9443b5953cfcbfd9bac2fe7c5d34",
+    "ZeroPolicy.java": "d1ae7880779a111a74f9dcda52fe29b7f298d3546e6fc20270ba2272812b28bc"
+  },
+  "historical_regression_matches": [
+    {
+      "date": "2023-12-21",
+      "method": "horizon_1deg",
+      "old_run": "D:\\毕业论文\\user_runs\\qinling_horizon_001\\horizon_1deg_r1\\psd.csv",
+      "max_PSD_difference_min": 0.0,
+      "sample_and_fallback_match": true
+    },
+    {
+      "date": "2023-12-21",
+      "method": "horizon_2deg",
+      "old_run": "D:\\毕业论文\\user_runs\\qinling_horizon_001\\horizon_2deg_r1\\psd.csv",
+      "max_PSD_difference_min": 0.0,
+      "sample_and_fallback_match": true
+    },
+    {
+      "date": "2023-03-21",
+      "method": "adaptive_30min",
+      "old_run": "D:\\毕业论文\\user_runs\\qinling_spring_001\\adaptive_30min_r1\\psd.csv",
+      "max_PSD_difference_min": 0.0,
+      "sample_and_fallback_match": true
+    },
+    {
+      "date": "2023-06-21",
+      "method": "adaptive_30min",
+      "old_run": "D:\\毕业论文\\user_runs\\qinling_fixed1_v1_001\\adaptive_30min_r1\\psd.csv",
+      "max_PSD_difference_min": 0.0,
+      "sample_and_fallback_match": true
+    },
+    {
+      "date": "2023-12-21",
+      "method": "adaptive_30min",
+      "old_run": "D:\\毕业论文\\user_runs\\qinling_horizon_001\\adaptive_30min_r1\\psd.csv",
+      "max_PSD_difference_min": 0.0,
+      "sample_and_fallback_match": true
+    },
+    {
+      "date": "2023-03-21",
+      "method": "guardlocal_30min",
+      "old_run": "D:\\毕业论文\\user_runs\\qinling_spring_001\\guardlocal_30min_r1\\psd.csv",
+      "max_PSD_difference_min": 0.0,
+      "sample_and_fallback_match": true
+    },
+    {
+      "date": "2023-12-21",
+      "method": "guardlocal_30min",
+      "old_run": "D:\\毕业论文\\user_runs\\qinling_horizon_001\\guardlocal_30min_r1\\psd.csv",
+      "max_PSD_difference_min": 0.0,
+      "sample_and_fallback_match": true
+    },
+    {
+      "date": "2023-03-21",
+      "method": "guardcombined_30min",
+      "old_run": "D:\\毕业论文\\user_runs\\qinling_spring_001\\guardcombined_30min_r1\\psd.csv",
+      "max_PSD_difference_min": 0.0,
+      "sample_and_fallback_match": true
+    },
+    {
+      "date": "2023-12-21",
+      "method": "guardcombined_30min",
+      "old_run": "D:\\毕业论文\\user_runs\\qinling_horizon_001\\guardcombined_30min_r1\\psd.csv",
+      "max_PSD_difference_min": 0.0,
+      "sample_and_fallback_match": true
+    }
+  ],
+  "daily_accuracy": [
+    {
+      "date": "2023-03-21",
+      "method": "horizon_1deg",
+      "MAE_min": 0.04472203066665974,
+      "MAX_min": 2.0,
+      "error_gt1_pixels": 8,
+      "fallback_pixels": 0,
+      "rayCalls": 0,
+      "horizon_time_queries": 11829248
+    },
+    {
+      "date": "2023-06-21",
+      "method": "horizon_1deg",
+      "MAE_min": 0.061785733076872816,
+      "MAX_min": 2.0,
+      "error_gt1_pixels": 9,
+      "fallback_pixels": 0,
+      "rayCalls": 0,
+      "horizon_time_queries": 14008320
+    },
+    {
+      "date": "2023-12-21",
+      "method": "horizon_1deg",
+      "MAE_min": 0.08633643202408758,
+      "MAX_min": 2.0,
+      "error_gt1_pixels": 23,
+      "fallback_pixels": 0,
+      "rayCalls": 0,
+      "horizon_time_queries": 9633792
+    },
+    {
+      "date": "2023-03-21",
+      "method": "horizon_2deg",
+      "MAE_min": 0.13048507141665092,
+      "MAX_min": 3.0,
+      "error_gt1_pixels": 45,
+      "fallback_pixels": 0,
+      "rayCalls": 0,
+      "horizon_time_queries": 11829248
+    },
+    {
+      "date": "2023-06-21",
+      "method": "horizon_2deg",
+      "MAE_min": 0.1661899756857707,
+      "MAX_min": 4.0,
+      "error_gt1_pixels": 93,
+      "fallback_pixels": 0,
+      "rayCalls": 0,
+      "horizon_time_queries": 14008320
+    },
+    {
+      "date": "2023-12-21",
+      "method": "horizon_2deg",
+      "MAE_min": 0.22689726123587428,
+      "MAX_min": 7.0,
+      "error_gt1_pixels": 234,
+      "fallback_pixels": 0,
+      "rayCalls": 0,
+      "horizon_time_queries": 9633792
+    },
+    {
+      "date": "2023-03-21",
+      "method": "adaptive_30min",
+      "MAE_min": 0.0,
+      "MAX_min": 0.0,
+      "error_gt1_pixels": 0,
+      "fallback_pixels": 0,
+      "rayCalls": 1643606,
+      "horizon_time_queries": 0
+    },
+    {
+      "date": "2023-06-21",
+      "method": "adaptive_30min",
+      "MAE_min": 0.0,
+      "MAX_min": 0.0,
+      "error_gt1_pixels": 0,
+      "fallback_pixels": 0,
+      "rayCalls": 1725068,
+      "horizon_time_queries": 0
+    },
+    {
+      "date": "2023-12-21",
+      "method": "adaptive_30min",
+      "MAE_min": 0.001708984375,
+      "MAX_min": 18.0,
+      "error_gt1_pixels": 3,
+      "fallback_pixels": 148,
+      "rayCalls": 1552434,
+      "horizon_time_queries": 0
+    },
+    {
+      "date": "2023-03-21",
+      "method": "guardlocal_30min",
+      "MAE_min": 0.0,
+      "MAX_min": 0.0,
+      "error_gt1_pixels": 0,
+      "fallback_pixels": 0,
+      "rayCalls": 1036681,
+      "horizon_time_queries": 0
+    },
+    {
+      "date": "2023-06-21",
+      "method": "guardlocal_30min",
+      "MAE_min": 0.0,
+      "MAX_min": 0.0,
+      "error_gt1_pixels": 0,
+      "fallback_pixels": 0,
+      "rayCalls": 1171643,
+      "horizon_time_queries": 0
+    },
+    {
+      "date": "2023-12-21",
+      "method": "guardlocal_30min",
+      "MAE_min": 0.00250244140625,
+      "MAX_min": 18.0,
+      "error_gt1_pixels": 6,
+      "fallback_pixels": 140,
+      "rayCalls": 964195,
+      "horizon_time_queries": 0
+    },
+    {
+      "date": "2023-03-21",
+      "method": "guardcombined_30min",
+      "MAE_min": 0.0,
+      "MAX_min": 0.0,
+      "error_gt1_pixels": 0,
+      "fallback_pixels": 0,
+      "rayCalls": 1279991,
+      "horizon_time_queries": 0
+    },
+    {
+      "date": "2023-06-21",
+      "method": "guardcombined_30min",
+      "MAE_min": 0.0,
+      "MAX_min": 0.0,
+      "error_gt1_pixels": 0,
+      "fallback_pixels": 0,
+      "rayCalls": 1435684,
+      "horizon_time_queries": 0
+    },
+    {
+      "date": "2023-12-21",
+      "method": "guardcombined_30min",
+      "MAE_min": 0.00164794921875,
+      "MAX_min": 9.0,
+      "error_gt1_pixels": 5,
+      "fallback_pixels": 140,
+      "rayCalls": 1255305,
+      "horizon_time_queries": 0
+    }
+  ],
+  "aggregate": [
+    {
+      "method": "horizon_1deg",
+      "repeats": "3",
+      "day1_total_sec": "40.978924900",
+      "day2_total_sec": "46.281027700",
+      "day3_total_sec": "48.789593500",
+      "total_min_sec": "48.741163400",
+      "total_max_sec": "49.633211700",
+      "preprocess_sec": "36.800918300",
+      "horizon_table_builds": "16384",
+      "table_payload_bytes": "47185920",
+      "horizon_directions": "5898240",
+      "horizon_spatial_samples": "1179648000",
+      "horizon_time_queries": "35471360",
+      "rayCalls": "0",
+      "spatialSamples": "0"
+    },
+    {
+      "method": "horizon_2deg",
+      "repeats": "3",
+      "day1_total_sec": "23.441728600",
+      "day2_total_sec": "28.731029700",
+      "day3_total_sec": "31.217029300",
+      "total_min_sec": "30.920719500",
+      "total_max_sec": "31.252317600",
+      "preprocess_sec": "19.170104300",
+      "horizon_table_builds": "16384",
+      "table_payload_bytes": "23592960",
+      "horizon_directions": "2949120",
+      "horizon_spatial_samples": "589824000",
+      "horizon_time_queries": "35471360",
+      "rayCalls": "0",
+      "spatialSamples": "0"
+    },
+    {
+      "method": "adaptive_30min",
+      "repeats": "3",
+      "day1_total_sec": "7.342520900",
+      "day2_total_sec": "15.719987400",
+      "day3_total_sec": "22.036411700",
+      "total_min_sec": "21.397008300",
+      "total_max_sec": "22.124944300",
+      "preprocess_sec": "0.000000000",
+      "horizon_table_builds": "0",
+      "table_payload_bytes": "0",
+      "horizon_directions": "0",
+      "horizon_spatial_samples": "0",
+      "horizon_time_queries": "0",
+      "rayCalls": "4921108",
+      "spatialSamples": "659373836"
+    },
+    {
+      "method": "guardlocal_30min",
+      "repeats": "3",
+      "day1_total_sec": "5.384372700",
+      "day2_total_sec": "11.732452300",
+      "day3_total_sec": "15.885292100",
+      "total_min_sec": "15.876915600",
+      "total_max_sec": "16.081181300",
+      "preprocess_sec": "0.000000000",
+      "horizon_table_builds": "0",
+      "table_payload_bytes": "0",
+      "horizon_directions": "0",
+      "horizon_spatial_samples": "0",
+      "horizon_time_queries": "0",
+      "rayCalls": "3172519",
+      "spatialSamples": "466186453"
+    },
+    {
+      "method": "guardcombined_30min",
+      "repeats": "3",
+      "day1_total_sec": "6.117985900",
+      "day2_total_sec": "13.400831400",
+      "day3_total_sec": "18.375583000",
+      "total_min_sec": "18.006310100",
+      "total_max_sec": "18.770240400",
+      "preprocess_sec": "0.000000000",
+      "horizon_table_builds": "0",
+      "table_payload_bytes": "0",
+      "horizon_directions": "0",
+      "horizon_spatial_samples": "0",
+      "horizon_time_queries": "0",
+      "rayCalls": "3970980",
+      "spatialSamples": "523684552"
+    }
+  ],
+  "limitations": [
+    "fixed1 is a conditional temporal reference under the same spatial model",
+    "three representative dates, not continuous weather observations",
+    "reported compute time includes preprocessing and daily queries; input/CSV/analysis are separate",
+    "table payload bytes are not measured peak process memory"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS_CONTROLLED_SUFFIX_RECORDS",
+  "temporal_arms": [
+    "old",
+    "dual"
+  ],
+  "paired_ray_checks": 1173013,
+  "artificial_rays": 865,
+  "formal_runs": 12,
+  "warmup_runs": 8,
+  "source_and_history_unchanged": true,
+  "protected_files": 163,
+  "totals": {
+    "old": {
+      "rays": 862525,
+      "b_interpolations": 17275977,
+      "s_interpolations": 10485259,
+      "suffix_samples": 6790718,
+      "b_skipped": 93217471,
+      "s_skipped": 100008189,
+      "blocks": 10665319,
+      "eligibility_checks": 1734083,
+      "end_tests": 1220244,
+      "boundary_tests": 3115503,
+      "planned_suffixes": 593148,
+      "actual_suffix_segments": 513289,
+      "visible": 539006,
+      "shaded": 323519,
+      "unknown": 0,
+      "integration_nodes": 862525
+    },
+    "dual": {
+      "rays": 310488,
+      "b_interpolations": 8345031,
+      "s_interpolations": 6221976,
+      "suffix_samples": 2123055,
+      "b_skipped": 25757603,
+      "s_skipped": 27880658,
+      "blocks": 3419360,
+      "eligibility_checks": 859024,
+      "end_tests": 553868,
+      "boundary_tests": 1110553,
+      "planned_suffixes": 206273,
+      "actual_suffix_segments": 163445,
+      "visible": 159497,
+      "shaded": 150991,
+      "unknown": 0,
+      "integration_nodes": 310280
+    }
+  },
+  "all_states_stops_and_temporal_maps_match": true,
+  "all_repeat_scalar_files_match": true,
+  "memory_not_exact_algorithm_peak": true,
+  "new_visibility_or_solar_queries_in_audit": 0,
+  "accuracy_limits": "same accepted old MAX18 and dual MAX27; not equal to fixed1 or no-hidden-window proof"
+}

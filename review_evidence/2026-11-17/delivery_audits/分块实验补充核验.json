@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "new_visibility_queries": 0,
+  "runs": [
+    {
+      "run": "qinling_spatial_ablation_001",
+      "record_audit_status": "VERIFIED_S3",
+      "psd_files_checked": 12,
+      "pairs": [
+        {
+          "baseline": "fixed_1min",
+          "candidate": "block16fixed_1min",
+          "pixels_per_repeat": 16384,
+          "repeats": 3,
+          "max_duration_difference_min": 0.0
+        },
+        {
+          "baseline": "binarylocal_30min",
+          "candidate": "block16binarylocal_30min",
+          "pixels_per_repeat": 16384,
+          "repeats": 3,
+          "max_duration_difference_min": 0.0
+        }
+      ],
+      "median_time_recomputed": true,
+      "queries_and_samples_recomputed": true
+    },
+    {
+      "run": "qinling_spatial_sensitivity_001",
+      "record_audit_status": "VERIFIED_FIVE_WIDTH_SENSITIVITY",
+      "psd_files_checked": 18,
+      "pairs": [
+        {
+          "baseline": "binarylocal_30min",
+          "candidate": "block4binarylocal_30min",
+          "pixels_per_repeat": 16384,
+          "repeats": 3,
+          "max_duration_difference_min": 0.0
+        },
+        {
+          "baseline": "binarylocal_30min",
+          "candidate": "block8binarylocal_30min",
+          "pixels_per_repeat": 16384,
+          "repeats": 3,
+          "max_duration_difference_min": 0.0
+        },
+        {
+          "baseline": "binarylocal_30min",
+          "candidate": "block16binarylocal_30min",
+          "pixels_per_repeat": 16384,
+          "repeats": 3,
+          "max_duration_difference_min": 0.0
+        },
+        {
+          "baseline": "binarylocal_30min",
+          "candidate": "block32binarylocal_30min",
+          "pixels_per_repeat": 16384,
+          "repeats": 3,
+          "max_duration_difference_min": 0.0
+        },
+        {
+          "baseline": "binarylocal_30min",
+          "candidate": "block64binarylocal_30min",
+          "pixels_per_repeat": 16384,
+          "repeats": 3,
+          "max_duration_difference_min": 0.0
+        }
+      ],
+      "median_time_recomputed": true,
+      "queries_and_samples_recomputed": true
+    },
+    {
+      "run": "qinling_spatial_summer_001",
+      "record_audit_status": "VERIFIED_SUMMER_TRANSFER",
+      "psd_files_checked": 6,
+      "pairs": [
+        {
+          "baseline": "binarylocal_30min",
+          "candidate": "block16binarylocal_30min",
+          "pixels_per_repeat": 16384,
+          "repeats": 3,
+          "max_duration_difference_min": 0.0
+        }
+      ],
+      "median_time_recomputed": true,
+      "queries_and_samples_recomputed": true
+    },
+    {
+      "run": "huabei_spatial_spring_001",
+      "record_audit_status": "VERIFIED_HUABEI_SPATIAL_TRANSFER",
+      "psd_files_checked": 6,
+      "pairs": [
+        {
+          "baseline": "binarylocal_30min",
+          "candidate": "block16binarylocal_30min",
+          "pixels_per_repeat": 16384,
+          "repeats": 3,
+          "max_duration_difference_min": 0.0
+        }
+      ],
+      "median_time_recomputed": true,
+      "queries_and_samples_recomputed": true
+    }
+  ],
+  "psd_files_checked": 42,
+  "pixels_per_file": 16384,
+  "total_psd_rows_checked": 688128,
+  "sources": {
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\summary.csv": "12835e4574736b3e0c0e546807586720946ca3c2c5ad0fb4fef1100fcf30d0f9",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\config.properties": "879d17b91191b3c35e209cee458037031e2cbe03a25657f2eab9e55b5a134fd0",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\independent_audit.json": "5a3d70d9b1357c2778b00f7d7fbd10789fddfdf1a1e2cc29a3ff539aaeb8f64f",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\fixed_1min_r1\\psd.csv": "12f7aeed4ea2fbe3d13f9eab469748e2a26f80bd406818c3655f7ecf6c4076d9",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\fixed_1min_r1\\runtime.json": "bd2e69f9bc26d5b72c2fd9c071f5a6d11a8d19beb4250358bf55a805d9bad733",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\fixed_1min_r2\\psd.csv": "12f7aeed4ea2fbe3d13f9eab469748e2a26f80bd406818c3655f7ecf6c4076d9",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\fixed_1min_r2\\runtime.json": "b7aeeb64d0ad21d12b10f8e3cc48eceb0a9eee65c048794957a506b04d21a8e0",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\fixed_1min_r3\\psd.csv": "12f7aeed4ea2fbe3d13f9eab469748e2a26f80bd406818c3655f7ecf6c4076d9",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\fixed_1min_r3\\runtime.json": "4b318e1fb9719919ffe5028993fc930435c0349f41ceacd23621a9ab50c74e1d",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16fixed_1min_r1\\psd.csv": "12f7aeed4ea2fbe3d13f9eab469748e2a26f80bd406818c3655f7ecf6c4076d9",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16fixed_1min_r1\\runtime.json": "1920141619e2e3a45eb75132c9909d112310a344100b54676135e4e12c4f49a1",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16fixed_1min_r2\\psd.csv": "12f7aeed4ea2fbe3d13f9eab469748e2a26f80bd406818c3655f7ecf6c4076d9",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16fixed_1min_r2\\runtime.json": "0e878b8a111cf209e9668d8a097630f888278e9d3e949c6e250f415df0ff40fa",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16fixed_1min_r3\\psd.csv": "12f7aeed4ea2fbe3d13f9eab469748e2a26f80bd406818c3655f7ecf6c4076d9",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16fixed_1min_r3\\runtime.json": "9979c0714746bc6a408da3971a295667b71d917909e6f3ebe37c2884d942bd9d",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\binarylocal_30min_r1\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\binarylocal_30min_r1\\runtime.json": "ac4ddf93658eacf1c88dd139331a376c6195b179fc8937d28ee64169b62c889f",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\binarylocal_30min_r2\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\binarylocal_30min_r2\\runtime.json": "a594ff7828ee1e984a757bc0f9a12011e5b0b9474750384016cf91b4b69fd272",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\binarylocal_30min_r3\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\binarylocal_30min_r3\\runtime.json": "0a7c09c1bb78d3f9c97b160806de42b87fd08095829d6f8f3da6330c0cfeab07",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16binarylocal_30min_r1\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16binarylocal_30min_r1\\runtime.json": "8af05ff055db5b02152daff717f045b58dedfa0448de581cd7f05d423657ec8b",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16binarylocal_30min_r2\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16binarylocal_30min_r2\\runtime.json": "fde2fef3f2d28e4f915c72ed618ecb68e5ec70b4d9f2c1a126bccf1a78f9de62",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16binarylocal_30min_r3\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\block16binarylocal_30min_r3\\runtime.json": "ada1d3465693c95898f544673fbd891e7363010f022cbc8d61bb76d41ab1bae3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\summary.csv": "a4dee15ee60cc820dd30232aba99a1f8797adc33a34a8e305d593d8288cc3835",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\config.properties": "e43cebbb67feae9cc24b7ffba515f1043ef1cf3f849a3300494c8c4afb6db2c2",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\independent_audit.json": "1aed84d5d3ca5f1a93ecd3c69d4900cfd68904425f27cc7b37795de8330899c4",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\binarylocal_30min_r1\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\binarylocal_30min_r1\\runtime.json": "0bf066ab7ffa56b783210aebcd7d379a460b94b973701325831a81dfc8c9fcf2",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\binarylocal_30min_r2\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\binarylocal_30min_r2\\runtime.json": "42fd86dd040fca2da50b19c5aac39cc1d836be66465524715861d8fc041bb673",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\binarylocal_30min_r3\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\binarylocal_30min_r3\\runtime.json": "ac4c83970430cc29c25368e95c0942a8150752cb065dea26ec7e399163b09c25",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block4binarylocal_30min_r1\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block4binarylocal_30min_r1\\runtime.json": "931d6296fa69bd8800ac3f1559731d864d40c6d61c544a0b6c2de2a8f56467b3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block4binarylocal_30min_r2\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block4binarylocal_30min_r2\\runtime.json": "bb6981cdd61950f772e86c67c8607de41a02f6cd0227ea1b89487fb0a41e2e2c",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block4binarylocal_30min_r3\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block4binarylocal_30min_r3\\runtime.json": "9d6c66210c4bda50b908ceca69f059ac93fd41c19e05ed885cb5a76c049d4fda",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block8binarylocal_30min_r1\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block8binarylocal_30min_r1\\runtime.json": "dd28585090213e24a1a5e36f87d0f93dba82b8ba3a7157c3f09d921c4115e77e",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block8binarylocal_30min_r2\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block8binarylocal_30min_r2\\runtime.json": "3ec9e3bc5005854d1a33c628f499def69c1d12493fcaaeba13ef64cfd129eec3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block8binarylocal_30min_r3\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block8binarylocal_30min_r3\\runtime.json": "2b4de6f8269f91449b0d2ad7588ba8a0b24e28ce895aa6fc23cea63c3da505c5",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block16binarylocal_30min_r1\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block16binarylocal_30min_r1\\runtime.json": "70acb39209fce663445cc9d51d61d0e00c9beab741ab53b2aa322ff7a01ccb8c",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block16binarylocal_30min_r2\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block16binarylocal_30min_r2\\runtime.json": "4abed46c9af0c0aaa4d00233e2338d76ac24bd01c1f0f44b3510621fa61751d0",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block16binarylocal_30min_r3\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block16binarylocal_30min_r3\\runtime.json": "3356a0a85163ba7fad763e2aeadfde417dd53eec783d370bb7086a279483a7f0",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block32binarylocal_30min_r1\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block32binarylocal_30min_r1\\runtime.json": "c49796bc24aad996b226aa555bd219c86dadcf7a78a10862540b2611f2c28256",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block32binarylocal_30min_r2\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block32binarylocal_30min_r2\\runtime.json": "783c5c4755128aed98800882c5229dc38810939162cd77b50d3dd1b459f333b3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block32binarylocal_30min_r3\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block32binarylocal_30min_r3\\runtime.json": "9ed39b170438dc8087a446cc4e1dd82d20f3b003e88b9344ec91fbf7decb6865",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block64binarylocal_30min_r1\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block64binarylocal_30min_r1\\runtime.json": "7bbcb5e59bebb0c82318325e6adfe891dd909635b54d748d6aa7274b3279946e",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block64binarylocal_30min_r2\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block64binarylocal_30min_r2\\runtime.json": "d9ee26aede0c85c9bad18243b31349541a5b8c20617755046706cfab552dc129",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block64binarylocal_30min_r3\\psd.csv": "629ba78912fe4ef517320069144e12c70fa3d26df7b31f6814f08e84085f8af3",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\block64binarylocal_30min_r3\\runtime.json": "45025b439409ea63cbffd84c35f406a3d4f5b0589a6a56ef43061b4df0daff59",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\summary.csv": "7129527b7ee7d2a5f79ef86cba6744e6121623f7b0cc7499ef54ad043567732f",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\config.properties": "4d818a2b1ab489a34cabccefdf6c4ba0f452d57d50839ff552555ef2fed76887",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\independent_audit.json": "dfdf2ae935b7e0b2918458c149ba386a7760dc74aeb83fa2116033be86488977",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\binarylocal_30min_r1\\psd.csv": "60d8d0006e0177a08aedb3932a13d317ea7957332087ea23fb3c78d6287bc62b",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\binarylocal_30min_r1\\runtime.json": "0e0ce54f880b2ce189411af9664e9d227c62b20b2622cd93a0d28032c396d08d",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\binarylocal_30min_r2\\psd.csv": "60d8d0006e0177a08aedb3932a13d317ea7957332087ea23fb3c78d6287bc62b",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\binarylocal_30min_r2\\runtime.json": "7edd0d618e2c7c7f5d76704c17ec8ef30b64bed307d832507daa3ba66ee9c5b6",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\binarylocal_30min_r3\\psd.csv": "60d8d0006e0177a08aedb3932a13d317ea7957332087ea23fb3c78d6287bc62b",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\binarylocal_30min_r3\\runtime.json": "2caa56b5d1e1485878f7a380e123c77401a679ad90bdb3e59c3fc72e31f6f848",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\block16binarylocal_30min_r1\\psd.csv": "60d8d0006e0177a08aedb3932a13d317ea7957332087ea23fb3c78d6287bc62b",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\block16binarylocal_30min_r1\\runtime.json": "67769c83326d87194b52eff1753faf008329f1f285f7acf0603748626230c58f",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\block16binarylocal_30min_r2\\psd.csv": "60d8d0006e0177a08aedb3932a13d317ea7957332087ea23fb3c78d6287bc62b",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\block16binarylocal_30min_r2\\runtime.json": "626a7d432d7d782852f4079e5f15b241cd4674c2e5ccf6971f067806c2d02c01",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\block16binarylocal_30min_r3\\psd.csv": "60d8d0006e0177a08aedb3932a13d317ea7957332087ea23fb3c78d6287bc62b",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\block16binarylocal_30min_r3\\runtime.json": "58778138f7bcad426d450f93af60e324aa9c8888ab022259dbb15d3a18b1c994",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\summary.csv": "0e86cc10902c7f558faf8617ebda5c2f82f7fac077371c5af7de8f929852753a",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\config.properties": "8caefd4713186fef1e5b1b99c0657a6f98b71998b2e35f33ddb9c1bea5d8ca97",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\independent_audit.json": "f1a874a90b4dcd9821c3ae436a2431721158deeff6cc90225b2fa72de227d861",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\binarylocal_30min_r1\\psd.csv": "392e25bbcc544721d91d7adb47874a6df17cad55ff005f1f665638d4b4257bab",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\binarylocal_30min_r1\\runtime.json": "cdf4f5ab7821ef42e35eaf939bde39960251ca030f46cb6941d1d154c52b89da",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\binarylocal_30min_r2\\psd.csv": "392e25bbcc544721d91d7adb47874a6df17cad55ff005f1f665638d4b4257bab",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\binarylocal_30min_r2\\runtime.json": "74eb4f83a96502a30277a44a6e55816d54ac1bd68a00c26ccacb3c587f48d0dc",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\binarylocal_30min_r3\\psd.csv": "392e25bbcc544721d91d7adb47874a6df17cad55ff005f1f665638d4b4257bab",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\binarylocal_30min_r3\\runtime.json": "d964feec34d6e58f253119ba9d6dd14ac56ccc5f420e6dd40d36f6777951c8d2",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\block16binarylocal_30min_r1\\psd.csv": "392e25bbcc544721d91d7adb47874a6df17cad55ff005f1f665638d4b4257bab",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\block16binarylocal_30min_r1\\runtime.json": "010f193e33a70ce3fd28f639eb5a6521deda0c8fe2d4aea8791252819157d9ae",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\block16binarylocal_30min_r2\\psd.csv": "392e25bbcc544721d91d7adb47874a6df17cad55ff005f1f665638d4b4257bab",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\block16binarylocal_30min_r2\\runtime.json": "39cf22695ddd6b2a80022f7eae799c9a72f8485f2ff4530e015f4372473cdc49",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\block16binarylocal_30min_r3\\psd.csv": "392e25bbcc544721d91d7adb47874a6df17cad55ff005f1f665638d4b4257bab",
+    "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\block16binarylocal_30min_r3\\runtime.json": "25959fdf11f2c73353750a22ae611ee62c441cb502d28ba5fee1475acc756eea"
+  },
+  "source_files_unchanged": true,
+  "figure_files": [
+    "分块实验_01_结果保持与加速.png",
+    "分块实验_02_块宽选择.png",
+    "分块实验_03_日期地区迁移.png"
+  ]
+}

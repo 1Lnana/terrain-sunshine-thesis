@@ -1,0 +1,44 @@
+{
+  "status": "VERIFIED_HUABEI_SPATIAL_TRANSFER",
+  "psd_files_identical": 6,
+  "pixels_per_file": 16384,
+  "fingerprints_verified": 17,
+  "frozen_block_size": 16,
+  "parameter_selection_performed": false,
+  "saving_percent": 76.63865663883485,
+  "runtime_ratio": 4.280575755169779,
+  "metrics": {
+    "binarylocal_30min": {
+      "median_total_sec": 4.3993292,
+      "formal_total_seconds": [
+        4.3993292,
+        4.398585199,
+        4.4491313
+      ],
+      "spatial_samples": 173287091,
+      "skipped_samples": 0,
+      "block_tests": 0,
+      "index_payload_bytes": 0,
+      "MAE_from_csv_min": 0.0,
+      "MAX_from_csv_min": 0.0,
+      "error_gt1_pixels": 0
+    },
+    "block16binarylocal_30min": {
+      "median_total_sec": 1.0277424,
+      "formal_total_seconds": [
+        1.0369688,
+        1.005205501,
+        1.0277424
+      ],
+      "spatial_samples": 2724130,
+      "skipped_samples": 170562961,
+      "block_tests": 15514429,
+      "index_payload_bytes": 4761,
+      "MAE_from_csv_min": 0.0,
+      "MAX_from_csv_min": 0.0,
+      "error_gt1_pixels": 0
+    }
+  },
+  "binary_regression_checked": false,
+  "scope": "independent Huabei plain geography at one spring date; not all-season or temporal hidden-window guarantee"
+}

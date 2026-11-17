@@ -1,0 +1,38 @@
+{
+  "correctness": "artificial then full frozen old workload; dual adapter and maps gated against accepted Nov10 results",
+  "arms": [
+    "old_b",
+    "old_suffix",
+    "dual_b",
+    "dual_suffix"
+  ],
+  "warmups": 2,
+  "formal_rounds": 3,
+  "orders": [
+    "OB,OS,DB,DS",
+    "DS,DB,OS,OB",
+    "OB,OS,DB,DS",
+    "DS,DB,OS,OB",
+    "OB,OS,DB,DS"
+  ],
+  "each_trial": "reload identical DEM/ROI, build exactly one index, shared solar/temporal functions, common per-ray timer, validate and write scalars",
+  "primary_cost": "index build plus entire temporal/solar/spatial compute",
+  "full_cost": "load plus build plus compute plus scalar checks/digest plus write",
+  "extra_judgments": "separate correctness Stats pass; formal original B NoStats and candidate NoStats",
+  "stable_benefit_rule": "report all three paired algorithm/full costs and median; no acceleration claim from sample count or fastest run; no automatic extra rounds/optimization",
+  "accepted_time_accuracy": {
+    "old_day_MAX_minutes": 18,
+    "dual_day_MAX_minutes": 27,
+    "dual_first_boundary_MAX_minutes": 57,
+    "hidden_windows_and_selected_5min_rule_limits_retained": true
+  },
+  "memory": "Windows working set/private bytes sampled at 100ms plus per-trial JVM end/heap pool peaks; not exact algorithm peak",
+  "host": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "logical_cpus": 32
+  },
+  "index": "same maxima/complete arrays as B; no BVH/strips/multilevel",
+  "stop_after_this_batch": true
+}

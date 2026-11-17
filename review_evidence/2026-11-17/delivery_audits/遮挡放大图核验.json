@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "minute_since_sunrise": 324,
+  "pixel": [
+    162,
+    226
+  ],
+  "source": "D:\\毕业论文\\user_runs\\interval_certificate_minimal_001\\results\\rays.csv",
+  "source_sha256": "69a0bb56bec00a11178c15075d3d0e607d4e53dbfa2dcf0dc64a1ea6011ec1c4",
+  "sample_count_excluding_receiver": 11,
+  "first_stop_m": 550,
+  "terrain_at_stop_m": 2089.3862872284712,
+  "ray_at_stop_m": 2086.77366392972,
+  "difference_at_stop_m": 2.6126232987512594,
+  "all_prior_saved_samples_below_ray": true,
+  "new_visibility_queries": 0
+}

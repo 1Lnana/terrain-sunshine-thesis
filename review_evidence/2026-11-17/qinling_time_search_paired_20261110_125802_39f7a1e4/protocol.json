@@ -1,0 +1,36 @@
+{
+  "state": "PREPARING_AUTHORIZED_DIRECT_RUN",
+  "user_instruction": "好吧 你直接运行就行",
+  "scope": "Qinling original128 winter 2023-12-21; unchanged DEM solar spatial oracle and integral",
+  "warmup_order": [
+    "candidate",
+    "baseline"
+  ],
+  "formal_pair_orders": [
+    [
+      "baseline",
+      "candidate"
+    ],
+    [
+      "candidate",
+      "baseline"
+    ],
+    [
+      "baseline",
+      "candidate"
+    ]
+  ],
+  "warmup_full_roi_per_method": 1,
+  "formal_passes_per_method": 3,
+  "per_pass_query_caps": {
+    "baseline": 862525,
+    "candidate": 310488
+  },
+  "effective_new_query_cap": 4692052,
+  "previous_Huabei_protocol_queries": 5046188,
+  "timing_scope": "Same common receiver loop, solar/visibility/statistics and scalar copies; full node retention in excluded warmup only; formal writes, hashes and reference evaluation outside timer",
+  "accuracy_policy": "Record known duration and boundary errors; no zero-error gate; regression must preserve existing fixed-method outputs. User accepts observed speed-accuracy tradeoff, not a universal error guarantee.",
+  "stop": "No automatic retries, extra dates, regions, parameters or spatial-block integration",
+  "protected_files": 408,
+  "cost_estimate": "About 17 seconds compute from historical single-pass values, plus diagnostic loading/writing/JVM overhead; not a new measured time."
+}

@@ -1,0 +1,43 @@
+{
+  "arms": [
+    "dual_b",
+    "dual_suffix"
+  ],
+  "warmups_per_method": 3,
+  "formal_pairs": 10,
+  "order": "odd round B then suffix; even round suffix then B; parity resets for formal phase",
+  "config_reused_verbatim": "configs\\qinling_spatial_transfer_summer.properties",
+  "input_contract": {
+    "date": "2023-06-21",
+    "cellsize_m": "90.0",
+    "row_start": "114",
+    "col_start": "114",
+    "rows": "128",
+    "cols": "128",
+    "search_spacing_m": "50",
+    "search_samples": "200"
+  },
+  "legacy_config_methods_warmups_repeats": "loader compatibility only; executed arms/counts fixed by this independent summer wrapper",
+  "algorithm_classes_unchanged": [
+    "SuffixBlockVisibility",
+    "SuffixBlockVisibilityNoStats",
+    "Block16DirectionVisibility",
+    "Block16DirectionVisibilityNoStats",
+    "SuffixTemporalAdapter",
+    "TimeStructureSearch",
+    "LimitedDarkBinaryRefinement"
+  ],
+  "correctness": "B/point/candidate Stats/NoStats paired rays; separately execute candidate hybrid and compare actual solar query order, all requests/cache, maps and pixels",
+  "performance": "verbatim winter trial body; shared NoStats/per-ray clock; reload and build once per method run",
+  "full_time_scope": "load through checked/digested pixel write; not entire JVM end-to-end; excludes pool reset, subsequent JVM reads, outer runs CSV and log",
+  "accuracy": "reuse summer fixed1 conditional reference after original loader snapshot/hash checks; no fixed1 rerun",
+  "analysis": "all paired differences/fractions, method medians ratio, ranges/IQR and exploratory fixed-seed bootstrap paired-median interval; no reruns/tuning",
+  "memory": "same 100ms Windows sampler and JVM pool/end readings as winter; not exact peak",
+  "host": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "logical_cpus": 32
+  },
+  "stop_after_batch": true
+}

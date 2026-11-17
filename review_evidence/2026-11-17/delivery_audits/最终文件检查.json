@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_files_unchanged": 36,
+  "local_html_links_checked": 19,
+  "png_files_checked": 8,
+  "pdf_pages_checked": 8,
+  "new_visibility_queries": 0,
+  "revised_selectable_text_pdf_pages": 13,
+  "visual_review": "Contact sheet and full-resolution key figures inspected by the assistant.",
+  "task_status": {
+    "algorithm_figures": "complete",
+    "independent_experiment_records": "complete",
+    "literature_methods_and_assumptions": "complete_for_two_located_sources",
+    "teacher_specific_paper_identity": "awaiting_teacher_title_author_or_original_slide"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "state": "PREPARED_COMPILED_AWAITING_EXPLICIT_QUERY_BUDGET",
+  "scope": "huabei original128 spring same DEM solar space interpolation integral",
+  "warmup_order": [
+    "candidate",
+    "baseline"
+  ],
+  "formal_pair_orders": [
+    [
+      "baseline",
+      "candidate"
+    ],
+    [
+      "candidate",
+      "baseline"
+    ],
+    [
+      "baseline",
+      "candidate"
+    ]
+  ],
+  "warmup_full_roi_per_method": 1,
+  "formal_passes_per_method": 3,
+  "per_pass_query_caps": {
+    "baseline": 927941,
+    "candidate": 333606
+  },
+  "expected_total_queries": 5046188,
+  "old_query_cap": 1206589,
+  "run_gate": "no visibility query unless explicitly approved cap covers the complete protocol",
+  "timed_path": "common receiver loop, solar/visibility/statistics, query checks and scalar result copies; result arrays allocated before timer; formal detailed logs and node retention disabled for both",
+  "old_results": "regression only, never substitute for a timed baseline pass",
+  "protected_file_count": 362,
+  "compile_output": "user_runs/time_search_paired_compile_20261110_105403_98ada197",
+  "scientific_queries_executed": 0,
+  "pass_criterion": "all saved-input/history regressions and per-pixel repeat checks pass; report each paired time and error even if slower or nonzero; no automatic expansion",
+  "decision": "fresh same-batch timing distinguishes reproducible local time benefit from cross-batch observation; untriggered dark branch remains unvalidated",
+  "cost_estimate": "about 25 seconds compute from old medians for 8 full passes; diagnostic node output, input load and JVM/GC extra; estimate not a new measurement",
+  "diagnostics": "full nodes and boundary/window accuracy saved in excluded warmups; each formal pass saves scalar PSD/query/status/reason/branch for all pixels after all timings; formal repeat checks compare these scalars and aggregate visibility/spatial counts, not per-round node maps",
+  "new_files": [
+    "src/TimeSearchPairedBenchmark.java",
+    "configs/huabei_time_search_paired.properties",
+    "scripts/compile_time_search_paired.ps1",
+    "scripts/run_time_search_paired.ps1"
+  ],
+  "superseded_preparation_compile": "user_runs/time_search_paired_compile_20261110_105012_88e8253c"
+}

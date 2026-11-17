@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "formal_pixel_files_checked": 12,
+  "formal_pixel_rows_checked": 196608,
+  "formal_time_medians_recomputed": true,
+  "accuracy": {
+    "old": {
+      "MAX_min": 18.0,
+      "error_gt1_pixels": 6
+    },
+    "dual": {
+      "MAX_min": 27.0,
+      "error_gt1_pixels": 10
+    }
+  },
+  "source_fingerprints": {
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\runs.csv": "4630708bc0225f1087b57a02dd0f1cb390928fef60f728c29682ab0a67824dc1",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\analysis_summary.json": "a496cf2325677b2deb7923fd91ab92a387a84dd33198fc01c609607bfb5d4c6f",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\record_audit.json": "3a31915e621c48bb13adda81fd1b1aeb336e6dd7adac850222b781f17e7ab1eb",
+    "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\fixed_1min_r1\\psd.csv": "12f7aeed4ea2fbe3d13f9eab469748e2a26f80bd406818c3655f7ecf6c4076d9",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\verify_old_pixels.csv": "c1cf426ed23acab7183529fa14073f3647d58ea2e2b2f3dc0f900d29962f8c22",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_1_old_b_pixels.csv": "1a189f51300e1c32f018a81fb907000d34a599346d147ee77c605e8200ea48aa",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_2_old_b_pixels.csv": "1a189f51300e1c32f018a81fb907000d34a599346d147ee77c605e8200ea48aa",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_3_old_b_pixels.csv": "1a189f51300e1c32f018a81fb907000d34a599346d147ee77c605e8200ea48aa",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_1_old_suffix_pixels.csv": "1a189f51300e1c32f018a81fb907000d34a599346d147ee77c605e8200ea48aa",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_2_old_suffix_pixels.csv": "1a189f51300e1c32f018a81fb907000d34a599346d147ee77c605e8200ea48aa",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_3_old_suffix_pixels.csv": "1a189f51300e1c32f018a81fb907000d34a599346d147ee77c605e8200ea48aa",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\verify_dual_pixels.csv": "efd8fd13f20606f1eb0a8e6c38e023228f52450721fb3d9ddc89f9decdc247aa",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_1_dual_b_pixels.csv": "cb49793403e8f52d65f4e0cc20a526cafd0aca876fb93c5835feff3c79a589ac",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_2_dual_b_pixels.csv": "cb49793403e8f52d65f4e0cc20a526cafd0aca876fb93c5835feff3c79a589ac",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_3_dual_b_pixels.csv": "cb49793403e8f52d65f4e0cc20a526cafd0aca876fb93c5835feff3c79a589ac",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_1_dual_suffix_pixels.csv": "cb49793403e8f52d65f4e0cc20a526cafd0aca876fb93c5835feff3c79a589ac",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_2_dual_suffix_pixels.csv": "cb49793403e8f52d65f4e0cc20a526cafd0aca876fb93c5835feff3c79a589ac",
+    "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\formal_3_dual_suffix_pixels.csv": "cb49793403e8f52d65f4e0cc20a526cafd0aca876fb93c5835feff3c79a589ac"
+  },
+  "new_visibility_queries": 0,
+  "cost_scope": "separate medians, including index build; full from load through output"
+}

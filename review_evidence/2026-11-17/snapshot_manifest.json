@@ -1,0 +1,1329 @@
+{
+  "snapshot_date": "2026-11-17",
+  "scientific_experiments_run_this_upload": 0,
+  "raw_dem_included": false,
+  "entries": [
+    {
+      "path": "configs/huabei_spatial_transfer_spring.properties",
+      "bytes": 687,
+      "sha256": "8caefd4713186fef1e5b1b99c0657a6f98b71998b2e35f33ddb9c1bea5d8ca97",
+      "git_blob_sha1": "d1762720a180babc589fcd4734770c4c490e0381",
+      "source": "D:\\毕业论文\\configs\\huabei_spatial_transfer_spring.properties"
+    },
+    {
+      "path": "configs/huabei_spring_two_boundary_region.properties",
+      "bytes": 956,
+      "sha256": "c4c66dd5dcf57bf90d0c98fd0e1af07e80a5eca09ebfb5e366258f0decf0193a",
+      "git_blob_sha1": "99f5e0988e226ed9caba3c0c3067c948563bfeb2",
+      "source": "D:\\毕业论文\\configs\\huabei_spring_two_boundary_region.properties"
+    },
+    {
+      "path": "configs/huabei_time_search_paired.properties",
+      "bytes": 950,
+      "sha256": "b17d67abc36e784853ca53cceeb34625e6396a59bbeb1e3804532c0205a4ad31",
+      "git_blob_sha1": "12bec0a3ac43453d1a1d69417f794b1b2dc344a3",
+      "source": "D:\\毕业论文\\configs\\huabei_time_search_paired.properties"
+    },
+    {
+      "path": "configs/jianghuai_spatial_transfer_spring.properties",
+      "bytes": 717,
+      "sha256": "29dd2426ee061a4498f77fd2e870bab7b6b4f5bbe2366c0c2636371a04c53207",
+      "git_blob_sha1": "9c9e3cf7a417270ee27596fe495f98ffb76e21ba",
+      "source": "D:\\毕业论文\\configs\\jianghuai_spatial_transfer_spring.properties"
+    },
+    {
+      "path": "configs/qinling_spatial_block_comparison.properties",
+      "bytes": 772,
+      "sha256": "448d5b01629db1ebd85d718a8550bd37a4088b5254b9a29640e5111ac2dc0f8f",
+      "git_blob_sha1": "43742eaf3459ef6518c64fa59905cafee69ef01f",
+      "source": "D:\\毕业论文\\configs\\qinling_spatial_block_comparison.properties"
+    },
+    {
+      "path": "configs/qinling_spatial_block_sensitivity.properties",
+      "bytes": 852,
+      "sha256": "e43cebbb67feae9cc24b7ffba515f1043ef1cf3f849a3300494c8c4afb6db2c2",
+      "git_blob_sha1": "7097e5e15a7d8175986b9be4869f3c5bb9586fb2",
+      "source": "D:\\毕业论文\\configs\\qinling_spatial_block_sensitivity.properties"
+    },
+    {
+      "path": "configs/qinling_spatial_temporal_ablation.properties",
+      "bytes": 756,
+      "sha256": "879d17b91191b3c35e209cee458037031e2cbe03a25657f2eab9e55b5a134fd0",
+      "git_blob_sha1": "8413baf9e2f2eeccc40b5dacbe184818d3fc5d8c",
+      "source": "D:\\毕业论文\\configs\\qinling_spatial_temporal_ablation.properties"
+    },
+    {
+      "path": "configs/qinling_spatial_transfer_summer.properties",
+      "bytes": 696,
+      "sha256": "4d818a2b1ab489a34cabccefdf6c4ba0f452d57d50839ff552555ef2fed76887",
+      "git_blob_sha1": "fd8f0a23f04ca6f4f4c4a69736bba87ee539db8c",
+      "source": "D:\\毕业论文\\configs\\qinling_spatial_transfer_summer.properties"
+    },
+    {
+      "path": "configs/qinling_three_day_comparison.properties",
+      "bytes": 340,
+      "sha256": "bf556ad382e20a1b0e2fdd1d06e6d27198554b00683ff979802ebfffac5de0db",
+      "git_blob_sha1": "29a956d70aa6544037d90c91878492774c2fd409",
+      "source": "D:\\毕业论文\\configs\\qinling_three_day_comparison.properties"
+    },
+    {
+      "path": "configs/qinling_time_search_paired.properties",
+      "bytes": 1163,
+      "sha256": "897440845ab9da72c2122acb97f1962614f27a9155fb7d1be77cb38e8abd79c2",
+      "git_blob_sha1": "66b93bc66c9cb96302950393ab8cef4bfd21dbc5",
+      "source": "D:\\毕业论文\\configs\\qinling_time_search_paired.properties"
+    },
+    {
+      "path": "configs/qinling_winter_limited_dark.properties",
+      "bytes": 1144,
+      "sha256": "d30742d66076eb38f74f2c375c3e3c6e8df699677c45466bca0addd5a781237b",
+      "git_blob_sha1": "fa7d313c4bea0f3a76417d1198ac90f2d943c252",
+      "source": "D:\\毕业论文\\configs\\qinling_winter_limited_dark.properties"
+    },
+    {
+      "path": "configs/qinling_winter_two_boundary_comparison.properties",
+      "bytes": 1052,
+      "sha256": "1d2da2c2b70da9c54c80d71455f505dbd0043b3c6093383edf5a3a9fae6a61c7",
+      "git_blob_sha1": "342b2ee7964045006e4f8d4940098a1d963c5251",
+      "source": "D:\\毕业论文\\configs\\qinling_winter_two_boundary_comparison.properties"
+    },
+    {
+      "path": "configs/spatial_block_pilot.properties",
+      "bytes": 235,
+      "sha256": "93783df0ccf00179b358a10c6717ce42766f02eb87eb47b6f7ff5285bf82f5a2",
+      "git_blob_sha1": "fffe71cc06c08de4a209f77ad26be91ec8ebf6a2",
+      "source": "D:\\毕业论文\\configs\\spatial_block_pilot.properties"
+    },
+    {
+      "path": "docs/CURRENT_STATUS_2026-11-17.md",
+      "bytes": 3399,
+      "sha256": "68cb8473ed293d94293789a82582fdb4bf714ef3313e48b49505f8ba008a65f6",
+      "git_blob_sha1": "382fb214b0efbd9c932c229e839e895c59883055",
+      "source": "assembled reading guide from reviewed local records"
+    },
+    {
+      "path": "docs/EXPERIMENT_RESULTS_2026-11-17.md",
+      "bytes": 5701,
+      "sha256": "a9576ca57b336a1fe081c55c546a2b79296e45d68a9f7fac51a0b3d4d128dd8a",
+      "git_blob_sha1": "8bfe4f9846c4eed0f0e081211d8c1978a9182df3",
+      "source": "assembled reading guide from reviewed local records"
+    },
+    {
+      "path": "docs/GPT_REVIEW.md",
+      "bytes": 3092,
+      "sha256": "7c7556e3d4dab94ba0caa5a4b1c19914826a75925bc3e29cfd7ecaf2ad3489e4",
+      "git_blob_sha1": "f60888c66d1fe0145bf16cffb874814f94f16bbd",
+      "source": "assembled reading guide from reviewed local records"
+    },
+    {
+      "path": "docs/GROUP_MEETING_OUTLINE.md",
+      "bytes": 1764,
+      "sha256": "ff485200e2729331bcf3cdfe9ba64150862732fe211898143f7ad60009c6580f",
+      "git_blob_sha1": "cb7cb6fc440b9c203cf32993f8835d5720bdcd97",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\讲解提纲.md"
+    },
+    {
+      "path": "docs/LITERATURE_CHECK.md",
+      "bytes": 2508,
+      "sha256": "ea468c41a145b2339d4840dcdf088dca468edcd5d7558cf73d425d5479589f92",
+      "git_blob_sha1": "347f59ad8796a433e77c28d0213d893b374d03f2",
+      "source": "assembled reading guide from reviewed local records"
+    },
+    {
+      "path": "docs/METHODS_AND_RESULTS_2026-11-17.md",
+      "bytes": 12760,
+      "sha256": "198d8d82dc5acc07065a3d27b2a274eb052e6dad6edd564c6a00c9ef2bf86280",
+      "git_blob_sha1": "563a2a8f9a4fe4836daa74233d29b4020c9b3354",
+      "source": "assembled reading guide from reviewed local records"
+    },
+    {
+      "path": "docs/RESEARCH_QA.md",
+      "bytes": 3743,
+      "sha256": "cddd1836d6bc5ede1b189c704a6398f4d463ec57162086634bb77b1084515290",
+      "git_blob_sha1": "a3593d2ab213735734dae2391e93804d9658179c",
+      "source": "assembled reading guide from reviewed local records"
+    },
+    {
+      "path": "figures/group_meeting_20261117/04_真实时间轨迹.png",
+      "bytes": 146749,
+      "sha256": "93490d410b16c43464ceac86589427e8a1722d947da0112e80b3f88c0b45cecb",
+      "git_blob_sha1": "c6156d33923fa6f66c3cd0e8b6a6a9b02411c1de",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\图件\\04_真实时间轨迹.png"
+    },
+    {
+      "path": "figures/group_meeting_20261117/05_真实地形与射线剖面.png",
+      "bytes": 170633,
+      "sha256": "4e091eb3a6f5659287ab85ce6b4e8adfbe32ac7b3dfeb1abd488b34509b22f6f",
+      "git_blob_sha1": "62570d5fadfecdf9c039f5abb7328e61a4be5aa0",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\图件\\05_真实地形与射线剖面.png"
+    },
+    {
+      "path": "figures/group_meeting_20261117/分块实验_01_结果保持与加速.png",
+      "bytes": 244567,
+      "sha256": "4876e03a67cb8ed38611df5f123006e70fd92b4fbfdb48b56baf53713834298f",
+      "git_blob_sha1": "a4365d1644a57bb33d8a129bfc97f1ae6011d6af",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\图件\\分块实验_01_结果保持与加速.png"
+    },
+    {
+      "path": "figures/group_meeting_20261117/分块实验_02_块宽选择.png",
+      "bytes": 167338,
+      "sha256": "1c823632086f7529ed98c655b34baa6a53786ef5270764d414e47b13faf08007",
+      "git_blob_sha1": "9a3e6e0db21518fecc8ce3c5ed9a109f7e6d14e1",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\图件\\分块实验_02_块宽选择.png"
+    },
+    {
+      "path": "figures/group_meeting_20261117/分块实验_03_日期地区迁移.png",
+      "bytes": 194188,
+      "sha256": "9bde10298dfde5ce5343ec7dd8c18ac6779756820dc3443e4efe9dd2ba9dccdc",
+      "git_blob_sha1": "60d9e27cb194f4e6ed514978416f1442d944b442",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\图件\\分块实验_03_日期地区迁移.png"
+    },
+    {
+      "path": "figures/group_meeting_20261117/分块实验_04_双端组合.png",
+      "bytes": 320018,
+      "sha256": "5c1c978d8e2a8feb4512cd1a1b3c721f35160f69d5201cbff1bfb638c06cdc05",
+      "git_blob_sha1": "38b0b2160fd10877b3c575ce2b58c39d63967c92",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\图件\\分块实验_04_双端组合.png"
+    },
+    {
+      "path": "figures/group_meeting_20261117/分块索引_三维讲解.png",
+      "bytes": 2622484,
+      "sha256": "2196f035f929088a43392fd35d0716b259c0e6f7c59ed8a3a4dc50171d8e3e43",
+      "git_blob_sha1": "c7bda380db85e3f861e139e367d330e95e6d19cf",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\图件\\分块索引_三维讲解.png"
+    },
+    {
+      "path": "figures/group_meeting_20261117/遮挡证据_550米处放大.png",
+      "bytes": 164207,
+      "sha256": "3d6154ad2ee58a44d7e740857da174a84c920ec31e98eae16202f198f27bef73",
+      "git_blob_sha1": "a7a6e736370c09a2cbdb5a41935d2967b972fcf5",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\图件\\遮挡证据_550米处放大.png"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2781,
+      "sha256": "828f59946e55f4a8605ff32ac36ac968c6f34660ceee2e016d91d9cedff5da57",
+      "git_blob_sha1": "f07f7abf971e4c8a8397ad452f4461b0f46a0e3b",
+      "source": "assembled reading guide from reviewed local records"
+    },
+    {
+      "path": "reports/dual_block_combination_2026-11-17.pdf",
+      "bytes": 32150,
+      "sha256": "fe26d7d421743bd12f8b7d82635bdbef9ccc93ad046e8313c970ab96a6b791a9",
+      "git_blob_sha1": "de25a8792f5713338273d85e4bc6391ca8964d49",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\双端与分块组合结果_组会补充.pdf"
+    },
+    {
+      "path": "reports/group_meeting_2026-11-17.pdf",
+      "bytes": 4691575,
+      "sha256": "4f044e0d4298c9ba799d0a9179d701c15c826baf49b871cf6c4736ba54bc3753",
+      "git_blob_sha1": "e7f37eb29680e5d49c6bab47008dc72791aa1cfe",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\方法说明与实验结果_含组合实验_2026-11-17.pdf"
+    },
+    {
+      "path": "reports/spatial_results_2026-11-17.pdf",
+      "bytes": 43530,
+      "sha256": "cc741428f6b90201f5b77785fc8ce310200904c27fe31ffab892ea9c22622943",
+      "git_blob_sha1": "1864cdf11f7920260da126b26282ff5ed95b2973",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\分块实验结果_组会补充.pdf"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/交付核验.json",
+      "bytes": 1799,
+      "sha256": "2b413e6949389d868e9eb4404c72e3bedc87597287fda1deb932355a07088a0b",
+      "git_blob_sha1": "59ebd7d8c2a82ec6559ead26a3e85b7bdef546c8",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\交付核验.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/修订核验.json",
+      "bytes": 5109,
+      "sha256": "fa76e1a24e81df16a8bced2966949a3a564f29b1ee3149a47482356fd8482528",
+      "git_blob_sha1": "b21ecf56d126afa18c44e2817d3eb4eab56c20fb",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\修订核验.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/分块实验补充核验.json",
+      "bytes": 19709,
+      "sha256": "e85533d2de8ba379262a82505c7a806a98a9491c7321ffa2bb362795524fb1bf",
+      "git_blob_sha1": "54e5534e716167bf3e772b9538d530de903500c5",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\分块实验补充核验.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/分块补充章节.json",
+      "bytes": 1604,
+      "sha256": "655bac4f9ff42f59c04cd7b7be0aae4deff13758ffd62b38f850284ce4707f99",
+      "git_blob_sha1": "59f2fa3bc4a441e0a78c0a6fa8335d2f0708dfcc",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\分块补充章节.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/双端组合补图核验.json",
+      "bytes": 3759,
+      "sha256": "4f05be37c1e804c03cd4df8aab8e8125010e62b13dcf4e974ca1d11df477650f",
+      "git_blob_sha1": "019e24a13ef2e59dd82f48bb7c50d7a8efbc0b5a",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\双端组合补图核验.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/导航更新.json",
+      "bytes": 735,
+      "sha256": "c47009b639405d74a5c09919590716028cded38c16e80e5ec3ab91352e29579e",
+      "git_blob_sha1": "e26eb5d47ada3a4fad5209bb7d0e653e612d7133",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\导航更新.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/日照结构计数.json",
+      "bytes": 244,
+      "sha256": "c1ae66b694e042b7ecefb3fc3c745d70c7e6539d240e1f4951e61c7874176469",
+      "git_blob_sha1": "14bd2f69d2c06e529bebff5d77766ae856017103",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\日照结构计数.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/最终文件检查.json",
+      "bytes": 603,
+      "sha256": "e6b2ad2c9b386cfb0f0cc7dab947ab5accab26d48165bb5657c48f3452c7b8e2",
+      "git_blob_sha1": "6ab801594950582a2666c4f035f9d35cc84e4b57",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\最终文件检查.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/来源指纹.json",
+      "bytes": 6423,
+      "sha256": "41237de947ec418c55b5c858cf3c8f2f6980eb8240acf9b022b6e2919504acdb",
+      "git_blob_sha1": "f8f1fe2850e5a2507df80d11ee98fb100c14ee88",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\来源指纹.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/遮挡放大图核验.json",
+      "bytes": 553,
+      "sha256": "22a2b21e71e4c0ed425bac52ec4c1c9211c4e359afab1aeb5c910dc1579723a7",
+      "git_blob_sha1": "afad03d7964ef889f990da0a9dda9ab0008e5a52",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\遮挡放大图核验.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/delivery_audits/首遮挡剖面复算.json",
+      "bytes": 3681,
+      "sha256": "8c8180ad6cd3060f04ccd010cc0ffbc31cb74a68eb600ed824cb0b3cc35aeaf5",
+      "git_blob_sha1": "c866086fc359e09ff5b591521ecb5ccb5b0c28b0",
+      "source": "C:\\Users\\Lnana\\Documents\\ChatGPT\\轻松干大事\\deliverables\\2026-11-16_导师任务交付\\核验\\首遮挡剖面复算.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/huabei_spatial_spring_001/config.properties",
+      "bytes": 687,
+      "sha256": "8caefd4713186fef1e5b1b99c0657a6f98b71998b2e35f33ddb9c1bea5d8ca97",
+      "git_blob_sha1": "d1762720a180babc589fcd4734770c4c490e0381",
+      "source": "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\config.properties"
+    },
+    {
+      "path": "review_evidence/2026-11-17/huabei_spatial_spring_001/independent_audit.json",
+      "bytes": 1288,
+      "sha256": "f1a874a90b4dcd9821c3ae436a2431721158deeff6cc90225b2fa72de227d861",
+      "git_blob_sha1": "987a97fd46f7afc69ec4e392be1cf169a6f0cb9e",
+      "source": "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\independent_audit.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/huabei_spatial_spring_001/summary.csv",
+      "bytes": 746,
+      "sha256": "0e86cc10902c7f558faf8617ebda5c2f82f7fac077371c5af7de8f929852753a",
+      "git_blob_sha1": "94a1147d8255b488406270282169ff990afc7f6b",
+      "source": "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\summary.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/interval_certificate_minimal_001/INTERVAL_CERTIFICATE_MINIMAL_TEST.md",
+      "bytes": 10627,
+      "sha256": "b7ba6a10f48009a099902d12bb4d361df9b520aeeb75a65d8a2aa78c0eeac95e",
+      "git_blob_sha1": "7cb62f50fb68a9d60b2ddeeb629dcec6d7f9e1e0",
+      "source": "D:\\毕业论文\\user_runs\\interval_certificate_minimal_001\\INTERVAL_CERTIFICATE_MINIMAL_TEST.md"
+    },
+    {
+      "path": "review_evidence/2026-11-17/interval_certificate_minimal_001/results/minute_states_all_three.csv",
+      "bytes": 54390,
+      "sha256": "868fe8819c46ab06df08568710bb3c199c385da8560d2ca09e594200c5a6ff7f",
+      "git_blob_sha1": "5b801970f15f1ac7f5c3e54332bf79a43edf2c32",
+      "source": "D:\\毕业论文\\user_runs\\interval_certificate_minimal_001\\results\\minute_states_all_three.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/interval_certificate_minimal_001/results/rays.csv",
+      "bytes": 96926,
+      "sha256": "69a0bb56bec00a11178c15075d3d0e607d4e53dbfa2dcf0dc64a1ea6011ec1c4",
+      "git_blob_sha1": "41aad72e8e8a768f8aef023779408344677a5500",
+      "source": "D:\\毕业论文\\user_runs\\interval_certificate_minimal_001\\results\\rays.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_ablation_001/config.properties",
+      "bytes": 756,
+      "sha256": "879d17b91191b3c35e209cee458037031e2cbe03a25657f2eab9e55b5a134fd0",
+      "git_blob_sha1": "8413baf9e2f2eeccc40b5dacbe184818d3fc5d8c",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\config.properties"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_ablation_001/independent_audit.json",
+      "bytes": 1955,
+      "sha256": "5a3d70d9b1357c2778b00f7d7fbd10789fddfdf1a1e2cc29a3ff539aaeb8f64f",
+      "git_blob_sha1": "e32f4594b4a8490838c3917ef4405e09a088bb5c",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\independent_audit.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_ablation_001/spatial_ablation.json",
+      "bytes": 479,
+      "sha256": "11fb1fb28853bad976426a89c7e70b9408843f26e317f648d2144d6650801bd8",
+      "git_blob_sha1": "3c7ffe41831ebd8e10466590fa15afb6062fe6f8",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\spatial_ablation.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_ablation_001/spatial_ablation_pairs.csv",
+      "bytes": 1035,
+      "sha256": "8ce6aecebe1988065efa5bc80b57f6cec4f915bd8439cd7d92c3831b0b54c665",
+      "git_blob_sha1": "91255c3c680e0bbc94ddf3f322d692a7f694e8d4",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\spatial_ablation_pairs.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_ablation_001/summary.csv",
+      "bytes": 1119,
+      "sha256": "12835e4574736b3e0c0e546807586720946ca3c2c5ad0fb4fef1100fcf30d0f9",
+      "git_blob_sha1": "8561cd00e6b40e6b625c1e537cc7d1de57b7002d",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\summary.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_sensitivity_001/config.properties",
+      "bytes": 852,
+      "sha256": "e43cebbb67feae9cc24b7ffba515f1043ef1cf3f849a3300494c8c4afb6db2c2",
+      "git_blob_sha1": "7097e5e15a7d8175986b9be4869f3c5bb9586fb2",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\config.properties"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_sensitivity_001/independent_audit.json",
+      "bytes": 2245,
+      "sha256": "1aed84d5d3ca5f1a93ecd3c69d4900cfd68904425f27cc7b37795de8330899c4",
+      "git_blob_sha1": "17e94b4ce4f1f81c7ea299f3b8cebd7cc4165258",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\independent_audit.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_sensitivity_001/spatial_gate.json",
+      "bytes": 1135,
+      "sha256": "4a52ea364a0aed86801bc65254745a497d57ee40a9358e06d857d22f86e55c91",
+      "git_blob_sha1": "30c412d77f3bd8a628f81c9aba5fe3669c9b75b9",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\spatial_gate.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_sensitivity_001/spatial_repeat_comparison.csv",
+      "bytes": 2262,
+      "sha256": "f86e95c26d96c3658f53a5b959b3fe02d09a4db5051b97a71aa194778bde7948",
+      "git_blob_sha1": "3d69d4d4e9a15dba3576f309442c96d309465dd0",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\spatial_repeat_comparison.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_sensitivity_001/summary.csv",
+      "bytes": 1538,
+      "sha256": "a4dee15ee60cc820dd30232aba99a1f8797adc33a34a8e305d593d8288cc3835",
+      "git_blob_sha1": "ac6b5129051722ebed3910ef8f04ae82a37dcddc",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\summary.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_summer_001/config.properties",
+      "bytes": 696,
+      "sha256": "4d818a2b1ab489a34cabccefdf6c4ba0f452d57d50839ff552555ef2fed76887",
+      "git_blob_sha1": "fd8f0a23f04ca6f4f4c4a69736bba87ee539db8c",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\config.properties"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_summer_001/independent_audit.json",
+      "bytes": 1099,
+      "sha256": "dfdf2ae935b7e0b2918458c149ba386a7760dc74aeb83fa2116033be86488977",
+      "git_blob_sha1": "27f6457f02c6e48920981b706b2aabd10033b378",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\independent_audit.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_spatial_summer_001/summary.csv",
+      "bytes": 749,
+      "sha256": "7129527b7ee7d2a5f79ef86cba6744e6121623f7b0cc7499ef54ad043567732f",
+      "git_blob_sha1": "bcf3af86870c4e97b714ffa05446bb41d4e3fe72",
+      "source": "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\summary.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_three_day_001/config.properties",
+      "bytes": 340,
+      "sha256": "bf556ad382e20a1b0e2fdd1d06e6d27198554b00683ff979802ebfffac5de0db",
+      "git_blob_sha1": "29a956d70aa6544037d90c91878492774c2fd409",
+      "source": "D:\\毕业论文\\user_runs\\qinling_three_day_001\\config.properties"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_three_day_001/independent_audit.json",
+      "bytes": 13351,
+      "sha256": "591bbb1edd12c1ee2a6b46bcc5d2ab066eae1a658fc4eca555f69e803a5e8f48",
+      "git_blob_sha1": "743a95bc22b1a3f522c34e69a30588e04cf6d138",
+      "source": "D:\\毕业论文\\user_runs\\qinling_three_day_001\\independent_audit.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_three_day_001/summary.csv",
+      "bytes": 887,
+      "sha256": "d7adcc407795773a1d4f666052b9b0592c5e1a56a57ca10865fc4a7911308ec4",
+      "git_blob_sha1": "12f355001dfc3d999bffe853d73569189309b67c",
+      "source": "D:\\毕业论文\\user_runs\\qinling_three_day_001\\summary.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_time_search_paired_20261110_125802_39f7a1e4/config.properties",
+      "bytes": 1163,
+      "sha256": "897440845ab9da72c2122acb97f1962614f27a9155fb7d1be77cb38e8abd79c2",
+      "git_blob_sha1": "66b93bc66c9cb96302950393ab8cef4bfd21dbc5",
+      "source": "D:\\毕业论文\\user_runs\\qinling_time_search_paired_20261110_125802_39f7a1e4\\config.properties"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_time_search_paired_20261110_125802_39f7a1e4/paired_timings.csv",
+      "bytes": 527,
+      "sha256": "65212ff12e69885bc4a2863db311de0620551d3b8efefdce773bbfedbaa9c79f",
+      "git_blob_sha1": "7ffb159d98ea0a4bd98411132cb60bef4ecd3cea",
+      "source": "D:\\毕业论文\\user_runs\\qinling_time_search_paired_20261110_125802_39f7a1e4\\paired_timings.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_time_search_paired_20261110_125802_39f7a1e4/protocol.json",
+      "bytes": 1408,
+      "sha256": "fa496f6f3602398d2c07cae5a1d825b9bf8c835255bc8c28a6a7a89a7d21075a",
+      "git_blob_sha1": "87fc572ae7ce1582f8797737ea9d2e1e6b578a58",
+      "source": "D:\\毕业论文\\user_runs\\qinling_time_search_paired_20261110_125802_39f7a1e4\\protocol.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_time_search_paired_20261110_125802_39f7a1e4/record_audit.json",
+      "bytes": 2774,
+      "sha256": "9b8a61d5c0efc03748ce7edce480048b4a11e349303b4e9d2c6300705a42545b",
+      "git_blob_sha1": "f530a24f38fcda0b2ac6c5bb06f13eb47e29a256",
+      "source": "D:\\毕业论文\\user_runs\\qinling_time_search_paired_20261110_125802_39f7a1e4\\record_audit.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_time_search_paired_20261110_125802_39f7a1e4/summary.csv",
+      "bytes": 929,
+      "sha256": "be57f18410b8e62ab7c22bdb74f3136a41684cb2792e8e97991370bc0fe070d8",
+      "git_blob_sha1": "e12eb3478fc7531c611b6ac9bf615dbbee6920de",
+      "source": "D:\\毕业论文\\user_runs\\qinling_time_search_paired_20261110_125802_39f7a1e4\\summary.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_time_search_paired_20261110_125802_39f7a1e4/verification.txt",
+      "bytes": 566,
+      "sha256": "2eeb54de3acf082dde18ed5669b26a3646faab44a5367791879610130747c526",
+      "git_blob_sha1": "07cbcadb83903be0b14ef585f67b2cbdf93273aa",
+      "source": "D:\\毕业论文\\user_runs\\qinling_time_search_paired_20261110_125802_39f7a1e4\\verification.txt"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_two_boundary_compare_20261109_192443_209c0500/config.properties",
+      "bytes": 1052,
+      "sha256": "1d2da2c2b70da9c54c80d71455f505dbd0043b3c6093383edf5a3a9fae6a61c7",
+      "git_blob_sha1": "342b2ee7964045006e4f8d4940098a1d963c5251",
+      "source": "D:\\毕业论文\\user_runs\\qinling_two_boundary_compare_20261109_192443_209c0500\\config.properties"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_two_boundary_compare_20261109_192443_209c0500/single_pass_diagnostic.csv",
+      "bytes": 461,
+      "sha256": "40af64cd212a985f8c49c9aa0a438d18555310c6e6c246f293dbafc891885b00",
+      "git_blob_sha1": "2eaa151e6067fc6530aa3ef4c29ce40104204792",
+      "source": "D:\\毕业论文\\user_runs\\qinling_two_boundary_compare_20261109_192443_209c0500\\single_pass_diagnostic.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_two_boundary_compare_20261109_192443_209c0500/summary.csv",
+      "bytes": 4591,
+      "sha256": "b652fef7ffce327451c41952288698253fe29cf5308588f4cb73ecc5242c096e",
+      "git_blob_sha1": "6ea1c6b4d2e095fc87c9bed606026da8a5eb0f44",
+      "source": "D:\\毕业论文\\user_runs\\qinling_two_boundary_compare_20261109_192443_209c0500\\summary.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/qinling_two_boundary_compare_20261109_192443_209c0500/verification.txt",
+      "bytes": 629,
+      "sha256": "3b66fc497329d3de963c35ff78b6f1e880c478d0faf52b9d854d615add00712a",
+      "git_blob_sha1": "bda8fe0860a9c8a0d1f74a467efaf2ee8574231f",
+      "source": "D:\\毕业论文\\user_runs\\qinling_two_boundary_compare_20261109_192443_209c0500\\verification.txt"
+    },
+    {
+      "path": "review_evidence/2026-11-17/README.md",
+      "bytes": 6660,
+      "sha256": "1ba6ec7385481ea522ba0fd546ddaa2164a72d677e3f4bcc144d6d070e7d55c1",
+      "git_blob_sha1": "bae34db782d24eefa9aaae64bc4a4e3ba96bd2d3",
+      "source": "assembled reading guide from reviewed local records"
+    },
+    {
+      "path": "review_evidence/2026-11-17/snapshot_manifest.json",
+      "bytes": 67636,
+      "sha256": "f0143fd3a048c019d87d583768bbc4b62ecb22e0b6d93c9aa61de528f4d1dd5a",
+      "git_blob_sha1": "15818b2b147747c0653232c79a9e5daf6d285c89",
+      "source": "assembled reading guide from reviewed local records"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_combination_20261111_144944_5bf789cd/analysis_summary.json",
+      "bytes": 6285,
+      "sha256": "a496cf2325677b2deb7923fd91ab92a387a84dd33198fc01c609607bfb5d4c6f",
+      "git_blob_sha1": "adba8a7e4fe47484262cb6e0aa71a3c79da6f604",
+      "source": "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\analysis_summary.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_combination_20261111_144944_5bf789cd/GPT_REVIEW.md",
+      "bytes": 3021,
+      "sha256": "ebcfebf789fb09656913395a999dff6389076f324d419a834553a34e6e32630d",
+      "git_blob_sha1": "6d4248716d58ff63d402f610b4120fc2b9a43893",
+      "source": "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\GPT_REVIEW.md"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_combination_20261111_144944_5bf789cd/protocol.json",
+      "bytes": 1611,
+      "sha256": "fa56c27d8be978b22a094d4e2c3e652f99733ab47cb6101dbe91f1d65bf32f69",
+      "git_blob_sha1": "99122aaae1d7fae8037c4a9fee6fa312f0359e4a",
+      "source": "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\protocol.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_combination_20261111_144944_5bf789cd/record_audit.json",
+      "bytes": 1638,
+      "sha256": "3a31915e621c48bb13adda81fd1b1aeb336e6dd7adac850222b781f17e7ab1eb",
+      "git_blob_sha1": "14062d8e2c36716d494ad0ec070731d8e5ec57b6",
+      "source": "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\record_audit.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_combination_20261111_144944_5bf789cd/REPORT.md",
+      "bytes": 12923,
+      "sha256": "3c68a68b028000e065f72d0b558784500a8d16fc12c440127390564a100d9d4b",
+      "git_blob_sha1": "3f20d57098461b2448181f7e8cac42961c0cd98a",
+      "source": "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\REPORT.md"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_combination_20261111_144944_5bf789cd/results/counts_dual.csv",
+      "bytes": 357,
+      "sha256": "6803a3e33559e57db2a9d1cd4e272a4edd39209a9e0f4288307d57dcbf140127",
+      "git_blob_sha1": "2c034668f9eeeb2bb1e5b0438c1d20be6e99865f",
+      "source": "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\counts_dual.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_combination_20261111_144944_5bf789cd/results/counts_old.csv",
+      "bytes": 363,
+      "sha256": "5a804a856b968904fcd46dcc254a1e2d1d0ec613fd7539ea52db5b02c27d0fad",
+      "git_blob_sha1": "7284f71e7535ee1436a7bedc86f11cb02ff7f6e4",
+      "source": "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\counts_old.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_combination_20261111_144944_5bf789cd/results/runs.csv",
+      "bytes": 4923,
+      "sha256": "4630708bc0225f1087b57a02dd0f1cb390928fef60f728c29682ab0a67824dc1",
+      "git_blob_sha1": "6a0902bebbf327c5f08194d17db51d9b951ad916",
+      "source": "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\results\\runs.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_combination_20261111_144944_5bf789cd/summary.csv",
+      "bytes": 677,
+      "sha256": "71e5c5893f5abec422edc617e4f5b445917d337e7ac0ba30488991f9616eb4be",
+      "git_blob_sha1": "29db5dd25ea5e6887ac210b0462fe453e20a319b",
+      "source": "D:\\毕业论文\\user_runs\\suffix_combination_20261111_144944_5bf789cd\\summary.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/accuracy_by_tile.csv",
+      "bytes": 1117,
+      "sha256": "c62255307abfec66f3fba561b0479a3528ef95643e84ff3a5e1a6195e10e3c91",
+      "git_blob_sha1": "a191afcc78f05ad27fd0e4be8dc9b9bd2a24ffa3",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\accuracy_by_tile.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/accuracy_summary.json",
+      "bytes": 574,
+      "sha256": "209924c13e85a02b626fdebf3736fb6b502991b3c73a106bea2e014068f81c71",
+      "git_blob_sha1": "f5b9983b511408cc79f7636b8e356322eac63ad2",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\accuracy_summary.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/analysis_summary.json",
+      "bytes": 12730,
+      "sha256": "8c0ca2c55d05cca1e2d9ffdc930b9ddfc6d5425782a4d8ee51e9b99d5a2624a2",
+      "git_blob_sha1": "011bddf3d0d64b825f09a92166f4718fe15ec723",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\analysis_summary.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/error_pixels_gt1.csv",
+      "bytes": 186,
+      "sha256": "d032b8e4365765222bab176f7f528bb34225fed8305f6d1bba013c89c16471da",
+      "git_blob_sha1": "ef0877477824e8f0240a5ba231c304bde594036f",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\error_pixels_gt1.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/figure_status.json",
+      "bytes": 367,
+      "sha256": "c882990bed7fa07e58b2c05c46b554faf6bd422116fb6cadbd6359b7345f2508",
+      "git_blob_sha1": "bf50f87bcfa997697f07808a28ef5efbf1db4b72",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\figure_status.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/final_integrity_check.json",
+      "bytes": 359,
+      "sha256": "4f8a577e6b5ec15afdf0703831ae9d753c668e295cb0c3c4bea4e66fb35481ef",
+      "git_blob_sha1": "9a6027fa6cfb6b2dca889770d37d522a4b0dc20e",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\final_integrity_check.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/GPT_REVIEW.md",
+      "bytes": 3526,
+      "sha256": "d7c503fe6e6d2eb8db0bd0d27c67b65abef5fa78c6426bd7acc2ddabdd33a0d7",
+      "git_blob_sha1": "a94f5c081d3b7c5b6091046bb58b929de6761229",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\GPT_REVIEW.md"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/paired_timings.csv",
+      "bytes": 2318,
+      "sha256": "62b2795f378b8aeccc67f33d314198cf3bd7843dc95cdd9dd93ff90b7039a558",
+      "git_blob_sha1": "3546748ca522eaa3440d67d31ed4587ef1c8df56",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\paired_timings.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/post_audit_plot_failure.json",
+      "bytes": 801,
+      "sha256": "42287b5930c1e86bafb69c8ed2053c3b91798f91575dca8ac674e2ab45ef3335",
+      "git_blob_sha1": "176e281142e54534f4b0e41df88401b20109bd09",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\post_audit_plot_failure.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/protocol.json",
+      "bytes": 1981,
+      "sha256": "25434fa4a32691bfc7b8921b3ef6e81d1447fd1020d24a547a283ae98d74a2cc",
+      "git_blob_sha1": "e3b86c3b2f9c168c38ad0e9fea91d15a017e9368",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\protocol.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/record_audit.json",
+      "bytes": 1736,
+      "sha256": "a50ca2a151d596b763e47bf495dc08eb6d3a3b0ed2d410f3bb0b49313410b7b7",
+      "git_blob_sha1": "e4ce09b1d9a77e242da7c61fc86fc9bc362b65a2",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\record_audit.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/REPORT.md",
+      "bytes": 15902,
+      "sha256": "a25d59c7e33dbdfc254cf73e520eb8788ebaa62859e8559549b58374cc8fa1c7",
+      "git_blob_sha1": "e868fb070be669b57055121ab05022ac17c87980",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\REPORT.md"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/results/runs.csv",
+      "bytes": 6221,
+      "sha256": "5f1d0ad9e1a8232c200b9a79a01fa46e3621d82684e17270b9fcd2fa2d2124e9",
+      "git_blob_sha1": "4e8ab1c2d4ab07611d4ab833ff706057039242c9",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\results\\runs.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/suffix_summer_transfer_20261111_182028_bb4af5c8/summary.csv",
+      "bytes": 341,
+      "sha256": "27d79a8efdc3ae1d8371da4930fc30585cd8eef911580304c57716da3e5f4c83",
+      "git_blob_sha1": "add69d4f142086a0c81bc2c5032b692f30f3e76f",
+      "source": "D:\\毕业论文\\user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8\\summary.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/time_search_paired_20261110_105831_3515915b/config.properties",
+      "bytes": 950,
+      "sha256": "b17d67abc36e784853ca53cceeb34625e6396a59bbeb1e3804532c0205a4ad31",
+      "git_blob_sha1": "12bec0a3ac43453d1a1d69417f794b1b2dc344a3",
+      "source": "D:\\毕业论文\\user_runs\\time_search_paired_20261110_105831_3515915b\\config.properties"
+    },
+    {
+      "path": "review_evidence/2026-11-17/time_search_paired_20261110_105831_3515915b/paired_timings.csv",
+      "bytes": 527,
+      "sha256": "ed7454c57a8e2d93ec7d1ab84c9cca17224d5ff800d710a623a4c485f2834b09",
+      "git_blob_sha1": "fe51ab6e65c9577cdcc40c2ae8a0be88fcadc1d8",
+      "source": "D:\\毕业论文\\user_runs\\time_search_paired_20261110_105831_3515915b\\paired_timings.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/time_search_paired_20261110_105831_3515915b/protocol.json",
+      "bytes": 2277,
+      "sha256": "30a32042c280e94d228d4e47b4cf15a85603c24d4d34594c6625be1c9370bb9b",
+      "git_blob_sha1": "6ab372bb5e3437ee60d39d97adba9eb716e3cdaa",
+      "source": "D:\\毕业论文\\user_runs\\time_search_paired_20261110_105831_3515915b\\protocol.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/time_search_paired_20261110_105831_3515915b/record_audit.json",
+      "bytes": 1714,
+      "sha256": "465588aa70c01a85e1a7034593ed7cbba3c2464b28e7c0869939c9df173d220b",
+      "git_blob_sha1": "ef4e88d1963b53754c5ea1633d02c96b572285d7",
+      "source": "D:\\毕业论文\\user_runs\\time_search_paired_20261110_105831_3515915b\\record_audit.json"
+    },
+    {
+      "path": "review_evidence/2026-11-17/time_search_paired_20261110_105831_3515915b/summary.csv",
+      "bytes": 915,
+      "sha256": "23c2d18ce8771f6329509c7e9649ae4ff391e2f84ba732d0f341910d979395cc",
+      "git_blob_sha1": "bf39250d39e8981d15b82027b153bca93f464589",
+      "source": "D:\\毕业论文\\user_runs\\time_search_paired_20261110_105831_3515915b\\summary.csv"
+    },
+    {
+      "path": "review_evidence/2026-11-17/time_search_paired_20261110_105831_3515915b/verification.txt",
+      "bytes": 479,
+      "sha256": "1ed9270bd4554e49f2f6d4f8a8db9001d20d9001b59c3fb47120fe1895d9ee79",
+      "git_blob_sha1": "45e3b3be13f365fea3788c38f4bc5e461617255f",
+      "source": "D:\\毕业论文\\user_runs\\time_search_paired_20261110_105831_3515915b\\verification.txt"
+    },
+    {
+      "path": "scripts/audit_qinling_time_search_paired_records.py",
+      "bytes": 13567,
+      "sha256": "477165f59048ef07bfdf34aac45b31201bd00cc050983262145e46d5ea64289c",
+      "git_blob_sha1": "51c20e6da97042b2b6e84c88107084179e70cd12",
+      "source": "D:\\毕业论文\\scripts\\audit_qinling_time_search_paired_records.py"
+    },
+    {
+      "path": "scripts/audit_qinling_two_boundary_records.py",
+      "bytes": 11389,
+      "sha256": "8b89e6e02e93e02ba04661411bf9e5643ec3bd1e70141cc6b72579f418c3779f",
+      "git_blob_sha1": "050024143b82ebb33965ef6c8463318857e8a026",
+      "source": "D:\\毕业论文\\scripts\\audit_qinling_two_boundary_records.py"
+    },
+    {
+      "path": "scripts/audit_suffix_combination.py",
+      "bytes": 14537,
+      "sha256": "bdd45934738d1ba7c3c79622bf910cb5ac2748c8a3afc044353388f7c19209b6",
+      "git_blob_sha1": "3478e27ad46651043eec89cdfcfbf647acca4d98",
+      "source": "D:\\毕业论文\\scripts\\audit_suffix_combination.py"
+    },
+    {
+      "path": "scripts/audit_suffix_summer_transfer.py",
+      "bytes": 18322,
+      "sha256": "c8f5220e063f0df0518eb3b5cb54b4b5fa01f69038e940c7c49af550bc55ddc9",
+      "git_blob_sha1": "4f9aa9f17f94a08989975e84d423b65861a7c792",
+      "source": "D:\\毕业论文\\scripts\\audit_suffix_summer_transfer.py"
+    },
+    {
+      "path": "scripts/audit_time_search_paired_records.py",
+      "bytes": 12280,
+      "sha256": "8c45c4b547a5a673b8b9ee9ab8e7271f44fb4f5cc108e29a80ce358c7b52cf8b",
+      "git_blob_sha1": "60b89adcd698ed14844283e3336d8b62292b6772",
+      "source": "D:\\毕业论文\\scripts\\audit_time_search_paired_records.py"
+    },
+    {
+      "path": "scripts/run_qinling_time_search_paired.ps1",
+      "bytes": 2599,
+      "sha256": "60182ed821847e9f9e1651f9c907a2674e5ca83e94064744128384d506e56e1a",
+      "git_blob_sha1": "54467c3e5446fb89b50d49deaac605c876594f4b",
+      "source": "D:\\毕业论文\\scripts\\run_qinling_time_search_paired.ps1"
+    },
+    {
+      "path": "scripts/run_suffix_combination.py",
+      "bytes": 12414,
+      "sha256": "f692d32f804c935c5c9e5e9e6b0661c08cc9db5e096e15da193e48dffbfe4404",
+      "git_blob_sha1": "44df1a53f9dedc619ad4cd3c18fae1311cfa4f67",
+      "source": "D:\\毕业论文\\scripts\\run_suffix_combination.py"
+    },
+    {
+      "path": "scripts/run_suffix_summer_transfer.py",
+      "bytes": 11013,
+      "sha256": "3f57742eabe825d5ba9119de336674bf29fa72e5a20dc779c6a8888df772bd2c",
+      "git_blob_sha1": "3e0b240f8358b33fa94aa76f87122cb09b1bf823",
+      "source": "D:\\毕业论文\\scripts\\run_suffix_summer_transfer.py"
+    },
+    {
+      "path": "src/AdaptiveTimeV1.java",
+      "bytes": 4310,
+      "sha256": "7569475731396045ef664cc13f60ba7058270539dee2ac8b6d10e12f2d449245",
+      "git_blob_sha1": "6cd887194d71c55e969f6d2cb6e6348e32efdb6b",
+      "source": "D:\\毕业论文\\src\\AdaptiveTimeV1.java"
+    },
+    {
+      "path": "src/AdaptiveTimeV2Local.java",
+      "bytes": 3944,
+      "sha256": "f7a9132742754fb705ff72819f9d2a993d00578b6cfbf6a094d74376ac5bc55e",
+      "git_blob_sha1": "1967d2d53df3630f13f7e598bce84ad86cd3ac79",
+      "source": "D:\\毕业论文\\src\\AdaptiveTimeV2Local.java"
+    },
+    {
+      "path": "src/AdaptiveV1Checks.java",
+      "bytes": 4017,
+      "sha256": "dc9eed40516377a056672227d561473aa3fc4e6fa95db7c095ee7cdcdd1b195a",
+      "git_blob_sha1": "468510744e817b4ebd50017ef9936a29bf63d3bc",
+      "source": "D:\\毕业论文\\src\\AdaptiveV1Checks.java"
+    },
+    {
+      "path": "src/AdaptiveV1Experiment.java",
+      "bytes": 6611,
+      "sha256": "9a51411d6a3bd9f92d97984fb2defd72a19c832908f577c8c658b28d818e6627",
+      "git_blob_sha1": "1a6c8175712381a953b8b56c94a7dbd5fbb39527",
+      "source": "D:\\毕业论文\\src\\AdaptiveV1Experiment.java"
+    },
+    {
+      "path": "src/AdaptiveV2LocalChecks.java",
+      "bytes": 2960,
+      "sha256": "6d34e3ff2d97e3a3b98f8dee35a9aef484a3ce7509ac4e59d17c49dd4ed8bd6e",
+      "git_blob_sha1": "52b91798c9b42c1d42696e76de317722453a60d1",
+      "source": "D:\\毕业论文\\src\\AdaptiveV2LocalChecks.java"
+    },
+    {
+      "path": "src/AngleReference.java",
+      "bytes": 153,
+      "sha256": "17106d193dfb34470527e7e44453bfe14820fff063813cae7cdb09a606185f29",
+      "git_blob_sha1": "659571c524c2efae475c1e194717eef70b683449",
+      "source": "D:\\毕业论文\\src\\AngleReference.java"
+    },
+    {
+      "path": "src/AsciiGrid.java",
+      "bytes": 1645,
+      "sha256": "853d527a6237f27651877a55d584780594bb613c85a67c31f25d00b1f14023a5",
+      "git_blob_sha1": "da0cd10fc395858a0d8a946fcc4bb90673f344bd",
+      "source": "D:\\毕业论文\\src\\AsciiGrid.java"
+    },
+    {
+      "path": "src/AsciiGridReader.java",
+      "bytes": 2958,
+      "sha256": "cb45a896950caf000ddec6d4b641644ab2829b8b5dea8197450db671c336fd96",
+      "git_blob_sha1": "2faaa55e0daec21ee45af20e8fdc4a5259c5decf",
+      "source": "D:\\毕业论文\\src\\AsciiGridReader.java"
+    },
+    {
+      "path": "src/BinaryLocalChecks.java",
+      "bytes": 11479,
+      "sha256": "a917df3e21224c768237b9e42141ca47d95e8ce9345a352366a82cf9105dc9f3",
+      "git_blob_sha1": "1f4b4de45404667689d67cb031818e0222d4ab76",
+      "source": "D:\\毕业论文\\src\\BinaryLocalChecks.java"
+    },
+    {
+      "path": "src/BinaryLocalRefinement.java",
+      "bytes": 2462,
+      "sha256": "463f8669161dea7d19193dcb062b9423461546a581065043891331193ac5ac4a",
+      "git_blob_sha1": "9c2cef0027db3a749b3a307d5626a90d989315e6",
+      "source": "D:\\毕业论文\\src\\BinaryLocalRefinement.java"
+    },
+    {
+      "path": "src/Block16CorridorPilot.java",
+      "bytes": 15057,
+      "sha256": "803ad28fb82a7599901ea682388f8df1152db349c440c3a8e9cc8c4558526514",
+      "git_blob_sha1": "96b146522878583444b3dd78d8c992e4dd037362",
+      "source": "D:\\毕业论文\\src\\Block16CorridorPilot.java"
+    },
+    {
+      "path": "src/Block16DirectionIntegrationChecks.java",
+      "bytes": 18608,
+      "sha256": "32b3fc7f716943779a697e3c09a15c6426cd776788163a086321ef91ddd0cf73",
+      "git_blob_sha1": "14d91a613d7a8cc8787de1073924f53cd21a9f30",
+      "source": "D:\\毕业论文\\src\\Block16DirectionIntegrationChecks.java"
+    },
+    {
+      "path": "src/Block16DirectionVisibility.java",
+      "bytes": 8383,
+      "sha256": "4a97e43d1b6a6034a3b65bb840564943889fe4eb3c51372b5219d3120ec9ed12",
+      "git_blob_sha1": "a8d1aec63fd67c760df4e0300ed820f8f76c9db6",
+      "source": "D:\\毕业论文\\src\\Block16DirectionVisibility.java"
+    },
+    {
+      "path": "src/Block16DirectionVisibilityNoStats.java",
+      "bytes": 8304,
+      "sha256": "c010b94f7f322887bba7f18a41b596fc4edc5e1e0557bc7d88446ba1d23f10c5",
+      "git_blob_sha1": "bf3c8b94b4e6a7434c6e854eccd16547f551fce4",
+      "source": "D:\\毕业论文\\src\\Block16DirectionVisibilityNoStats.java"
+    },
+    {
+      "path": "src/Block16EngineeringBaselineExperiment.java",
+      "bytes": 9584,
+      "sha256": "88d193836cc1b558778b7560ac452230effc63b80b1e50f2e8c8d458ee9dd4ba",
+      "git_blob_sha1": "bea29e7e2f8eb517ac508d096fc42e9748004414",
+      "source": "D:\\毕业论文\\src\\Block16EngineeringBaselineExperiment.java"
+    },
+    {
+      "path": "src/Block16JfrDiagnostic.java",
+      "bytes": 5855,
+      "sha256": "76e3d6d65f19886effa2974700855fd7736537935d7242953303d7cbcdb43f8f",
+      "git_blob_sha1": "f61fc4c164cce3643ff4f912c0d2f1eaae75d841",
+      "source": "D:\\毕业论文\\src\\Block16JfrDiagnostic.java"
+    },
+    {
+      "path": "src/Block16UpperBoundDiagnostic.java",
+      "bytes": 11113,
+      "sha256": "f955e9b6f68fc6432a1942614475e449069b4825a747b6dff5dde608507dc341",
+      "git_blob_sha1": "4d7114f8ecd6643fd97148baba9a8578449c3929",
+      "source": "D:\\毕业论文\\src\\Block16UpperBoundDiagnostic.java"
+    },
+    {
+      "path": "src/Block16UpperBoundDiagnosticChecks.java",
+      "bytes": 20426,
+      "sha256": "51425aa2f4637b992bf912b59d1ab5493885ff2fdccc5af9ab66c1e6c5bb2dfc",
+      "git_blob_sha1": "9d0a21358c5e6c1f6d21d6231c5ff708e4b3b13e",
+      "source": "D:\\毕业论文\\src\\Block16UpperBoundDiagnosticChecks.java"
+    },
+    {
+      "path": "src/Block16UpperBoundRealDiagnostic.java",
+      "bytes": 14863,
+      "sha256": "c7a9b99a580090a2650af799281710ee41e567177f80c09ab9acc4e247fecbd5",
+      "git_blob_sha1": "5a28e22aea0a007f29516ebba7e395fa1d0e0f77",
+      "source": "D:\\毕业论文\\src\\Block16UpperBoundRealDiagnostic.java"
+    },
+    {
+      "path": "src/BlockUpperBoundVisibility.java",
+      "bytes": 8266,
+      "sha256": "bf4ee8d1b3e9a4620cd4ea675c471f864c3be6d78b54a9058670d242b7f16619",
+      "git_blob_sha1": "77207052ba169f8eb67651aab0806644b0ca6293",
+      "source": "D:\\毕业论文\\src\\BlockUpperBoundVisibility.java"
+    },
+    {
+      "path": "src/BlockUpperBoundVisibilityNoStats.java",
+      "bytes": 8243,
+      "sha256": "bbe3b57f141621e42dcc8c3e555241a1961db9484dc5ae6cf925125ee81dfe7e",
+      "git_blob_sha1": "34339adc3fcd9b22d0e5c6e10e3e03484589b08a",
+      "source": "D:\\毕业论文\\src\\BlockUpperBoundVisibilityNoStats.java"
+    },
+    {
+      "path": "src/ColStripUpperBoundVisibilityNoStats.java",
+      "bytes": 9718,
+      "sha256": "0bdaf9ac209b48649bf83be25f63ba3fce5b0f3f1fced08ab3404d7a4d441bb9",
+      "git_blob_sha1": "0ad5b928ab5dc8680d72a04c0524b7f9888b50b0",
+      "source": "D:\\毕业论文\\src\\ColStripUpperBoundVisibilityNoStats.java"
+    },
+    {
+      "path": "src/ControlledVisibility.java",
+      "bytes": 3844,
+      "sha256": "edb659c351146e586d7e2e0d60f31b4f0cd034583ffa96d02258b1faf6435e21",
+      "git_blob_sha1": "d5f05660b60544017deca81cbb7f18075a343dd4",
+      "source": "D:\\毕业论文\\src\\ControlledVisibility.java"
+    },
+    {
+      "path": "src/CoordinateContract.java",
+      "bytes": 2859,
+      "sha256": "dab307299e5ac684c90786fe6b70fe0d04757045ff2602b97e4f03e3cb4bc98c",
+      "git_blob_sha1": "075fd82b7d1a954ac8626ed8d69d4a9c19265522",
+      "source": "D:\\毕业论文\\src\\CoordinateContract.java"
+    },
+    {
+      "path": "src/DarkCoarseGuardChecks.java",
+      "bytes": 7317,
+      "sha256": "fc854006c5a286f5118c2504487d99674096cd3dec5a7d9ac38d95c2af792b21",
+      "git_blob_sha1": "d068be605d697b86eade9905514ab4d8d2453bd7",
+      "source": "D:\\毕业论文\\src\\DarkCoarseGuardChecks.java"
+    },
+    {
+      "path": "src/HorizonBaseline.java",
+      "bytes": 8641,
+      "sha256": "5050f9e0034ecda89f9ce5bc75f430b47db2df10d9ee1d5f53a05f0f9fd0457a",
+      "git_blob_sha1": "86f204969f7fe4dbbd08c2dcf6cf7da99869521a",
+      "source": "D:\\毕业论文\\src\\HorizonBaseline.java"
+    },
+    {
+      "path": "src/HorizonBaselineChecks.java",
+      "bytes": 12294,
+      "sha256": "cdbbcee54892e620903a7d59fe2bf03626b47f11f3018aa1d931581cd60a357d",
+      "git_blob_sha1": "783d2cc7274bbb9db2073cbe6fc8e4d131ca99dd",
+      "source": "D:\\毕业论文\\src\\HorizonBaselineChecks.java"
+    },
+    {
+      "path": "src/HorizonDriverChecks.java",
+      "bytes": 7491,
+      "sha256": "8ad188523c54cf8b24fbab0d8ecbd0e06c5fa7c482fd2b3b7d9b3037b7659c9d",
+      "git_blob_sha1": "0289a0f07ee868590135c37d0a156be3601fff5b",
+      "source": "D:\\毕业论文\\src\\HorizonDriverChecks.java"
+    },
+    {
+      "path": "src/HuabeiTimeSearchTransfer.java",
+      "bytes": 25479,
+      "sha256": "cf79cbf197072bfd22bf6adccf3ed437e87a1d860d85c5280cac8c068f61dbfb",
+      "git_blob_sha1": "63297b183e8ad0ee8bc82537dbae42a955af0269",
+      "source": "D:\\毕业论文\\src\\HuabeiTimeSearchTransfer.java"
+    },
+    {
+      "path": "src/LimitedDarkBinaryRefinement.java",
+      "bytes": 2632,
+      "sha256": "02800b95ed3137c692fd84a5ec46929415d1223499075953ed0e12d06d442ee6",
+      "git_blob_sha1": "6d8b25077692f5b257999e58ab558fd6111cffe4",
+      "source": "D:\\毕业论文\\src\\LimitedDarkBinaryRefinement.java"
+    },
+    {
+      "path": "src/MultiDayReuseChecks.java",
+      "bytes": 7754,
+      "sha256": "001d5d14f17bbd394d91e9dfa989978bdf60d445ae2ccc130af9c3f7faf13e77",
+      "git_blob_sha1": "d23e7a569c5f03bc8c986f19397620bbd9e575f6",
+      "source": "D:\\毕业论文\\src\\MultiDayReuseChecks.java"
+    },
+    {
+      "path": "src/PlainLocalChecks.java",
+      "bytes": 6750,
+      "sha256": "ec5d13262ec86f0786c623f8ff6042459f73fc85f7a1f1e347a033113c9b09fb",
+      "git_blob_sha1": "6bc0cc25eee7bbf998e32f5874ce7c01536abf18",
+      "source": "D:\\毕业论文\\src\\PlainLocalChecks.java"
+    },
+    {
+      "path": "src/PlainLocalRefinement.java",
+      "bytes": 1849,
+      "sha256": "b50689c963d2a907722d8156c3d7930995ccb4f5f30692ebaebc31816c409d14",
+      "git_blob_sha1": "f43874438dee458b7b4f8a6f4b57a2a1a584869e",
+      "source": "D:\\毕业论文\\src\\PlainLocalRefinement.java"
+    },
+    {
+      "path": "src/ProjectedBaselineExperiment.java",
+      "bytes": 38778,
+      "sha256": "3f49e0976190f3984bfd374d300af1e80a0bb3fb1e3fcda2563b1a66f4a94e44",
+      "git_blob_sha1": "767f623dfa04a5bdcf51f4fca24c878d9a230957",
+      "source": "D:\\毕业论文\\src\\ProjectedBaselineExperiment.java"
+    },
+    {
+      "path": "src/ProjectedInputChecks.java",
+      "bytes": 3310,
+      "sha256": "4651f201ce9c0e2005cabf98fd553315f99310663c94b5eba61927f87815a8ec",
+      "git_blob_sha1": "c22fbd1fd9f6fa016e5a98a6b52f854e181859ef",
+      "source": "D:\\毕业论文\\src\\ProjectedInputChecks.java"
+    },
+    {
+      "path": "src/ProjectedMultiDayExperiment.java",
+      "bytes": 11557,
+      "sha256": "c313af23c5934e7e3db4730890a4e5dff12bba0fa15c120a52b8be77bbf62d65",
+      "git_blob_sha1": "59a604c7e20cd75201f33a843f76826898ecacae",
+      "source": "D:\\毕业论文\\src\\ProjectedMultiDayExperiment.java"
+    },
+    {
+      "path": "src/QinlingLimitedDarkExperiment.java",
+      "bytes": 44220,
+      "sha256": "6ea866ef40093c514d3d9e8c08e719adb4d2fbc56a443116ee24be622bccd3b4",
+      "git_blob_sha1": "02c279e1024b74ab22b4488015fb720f480c31cf",
+      "source": "D:\\毕业论文\\src\\QinlingLimitedDarkExperiment.java"
+    },
+    {
+      "path": "src/QinlingMiddayFallbackExperiment.java",
+      "bytes": 42295,
+      "sha256": "593cf9f29c664e02433d081a35196a4d8e1c275e40314e70fd41de5d80b22bac",
+      "git_blob_sha1": "441a3a81343ddddf3a35f1c03de12f3c1b379e50",
+      "source": "D:\\毕业论文\\src\\QinlingMiddayFallbackExperiment.java"
+    },
+    {
+      "path": "src/QinlingTimeSearchPairedBenchmark.java",
+      "bytes": 29989,
+      "sha256": "a84dcb07092fb67d08f897e014b41d7904b04b22d50948270dc67908e4e21a0b",
+      "git_blob_sha1": "6a73ad6fe2af5cb1c12f48a40f4bc57350ca6f4b",
+      "source": "D:\\毕业论文\\src\\QinlingTimeSearchPairedBenchmark.java"
+    },
+    {
+      "path": "src/QinlingTwoBoundaryExperiment.java",
+      "bytes": 32739,
+      "sha256": "06c56cdfeffd10e294d9ee3e628f65e2b74ab2332b3ef4488c72e4beb28d00b5",
+      "git_blob_sha1": "f31b51f46cda8ffa77043550110790a465baaf0e",
+      "source": "D:\\毕业论文\\src\\QinlingTwoBoundaryExperiment.java"
+    },
+    {
+      "path": "src/RowStripUpperBoundVisibilityNoStats.java",
+      "bytes": 9718,
+      "sha256": "cbff5e93950bfca5c60a3c627f4081d3894aa6ec3f4fb8c462875adeeba4459a",
+      "git_blob_sha1": "44026eee3e218fb7b0a67a067a50ad8dc2ec57bc",
+      "source": "D:\\毕业论文\\src\\RowStripUpperBoundVisibilityNoStats.java"
+    },
+    {
+      "path": "src/RunStatistics.java",
+      "bytes": 541,
+      "sha256": "8d8cc0567134e588a4521732bf58ee0af624b50f5335ab25b340f0981c289677",
+      "git_blob_sha1": "2270dc4c179f57ef0df0c296ca857fb4ffa760bf",
+      "source": "D:\\毕业论文\\src\\RunStatistics.java"
+    },
+    {
+      "path": "src/SearchConfig.java",
+      "bytes": 1135,
+      "sha256": "e3230919a0c61dac0a4ce06a2a0f0c667304381cda3b0587fc78bb1406e2e985",
+      "git_blob_sha1": "dfb857577b11f514fece0d1c146a294db2ceb811",
+      "source": "D:\\毕业论文\\src\\SearchConfig.java"
+    },
+    {
+      "path": "src/SolarAdaptiveSampling.java",
+      "bytes": 4028,
+      "sha256": "39af423e1883d9f312ea061b98cdba082d1d7697c5a6c48d4b52e66e94f75a1b",
+      "git_blob_sha1": "42ed84759a1d0fb182fd31e16a5e6ec21aaff17a",
+      "source": "D:\\毕业论文\\src\\SolarAdaptiveSampling.java"
+    },
+    {
+      "path": "src/SolarAdaptiveSamplingChecks.java",
+      "bytes": 3458,
+      "sha256": "d4ffff5055c884e332749c4c01c2d64f8ec7bd1994ac3c7a1b32203e505a3760",
+      "git_blob_sha1": "9d63a94766c6d76e51a516ae1e5c58d679c95fe6",
+      "source": "D:\\毕业论文\\src\\SolarAdaptiveSamplingChecks.java"
+    },
+    {
+      "path": "src/SpatialBlockComparison.java",
+      "bytes": 14305,
+      "sha256": "e8951d406b293883bfe235d42ae65b85d76f96f3fcdcca479cbd56e5848644d2",
+      "git_blob_sha1": "ec0be0e249603eafd65f11b6e58dfcadabc9706b",
+      "source": "D:\\毕业论文\\src\\SpatialBlockComparison.java"
+    },
+    {
+      "path": "src/SpatialBlockPilot.java",
+      "bytes": 20058,
+      "sha256": "ebe55546521a19d552db1f2562ff9a5b4396813632da8a1d3830e1e801f087be",
+      "git_blob_sha1": "beffd72ac87afba47dc39f4f53855cde3c0c34b9",
+      "source": "D:\\毕业论文\\src\\SpatialBlockPilot.java"
+    },
+    {
+      "path": "src/StripT2AblationExperiment.java",
+      "bytes": 21263,
+      "sha256": "aef6e783569c5993f6e601e8b2a84edfddae64eb22f82401ce5a8c09627b968c",
+      "git_blob_sha1": "c85d9468e8fcf504edb377e2d4a7f0d12c13900e",
+      "source": "D:\\毕业论文\\src\\StripT2AblationExperiment.java"
+    },
+    {
+      "path": "src/StripT2Experiment.java",
+      "bytes": 20777,
+      "sha256": "a32d20ba739295969f8e3d2300f6a59be0c1decb73f5837071be5f0ac08acf81",
+      "git_blob_sha1": "01e8cd1ac70c1df0ba8b86f3257b6923a89ff785",
+      "source": "D:\\毕业论文\\src\\StripT2Experiment.java"
+    },
+    {
+      "path": "src/StripT2PerformanceExperiment.java",
+      "bytes": 26352,
+      "sha256": "ec562996291a887fcf202673027e09cf3f202a5416456457bf02c124f84135ec",
+      "git_blob_sha1": "d1fff7646a40f63e7dec9e59e3dda5da5e2df703",
+      "source": "D:\\毕业论文\\src\\StripT2PerformanceExperiment.java"
+    },
+    {
+      "path": "src/StripUpperBoundVisibility.java",
+      "bytes": 12290,
+      "sha256": "26e4b7a5a6b122790eca4c74865b596ca2abef966ae7d53a20f6eec56de5c78e",
+      "git_blob_sha1": "92306a1130ab775e62fc1b3dc652ac6e075fb24c",
+      "source": "D:\\毕业论文\\src\\StripUpperBoundVisibility.java"
+    },
+    {
+      "path": "src/StripUpperBoundVisibilityNoStats.java",
+      "bytes": 10551,
+      "sha256": "d12e0f58e1dc3e5317a6b2d22c2fae50652a40ae375c2baca6e3847ba90307c3",
+      "git_blob_sha1": "83cccdd0a370e2e53efc506ca8deacdc30778679",
+      "source": "D:\\毕业论文\\src\\StripUpperBoundVisibilityNoStats.java"
+    },
+    {
+      "path": "src/StripVisibilityChecks.java",
+      "bytes": 16348,
+      "sha256": "fe3c981899f4556a32615f472aa26adc444c19b92d304ab193310228f7406e55",
+      "git_blob_sha1": "d722c6a8253a70fb998a3e14877b8fd0ea2e95ee",
+      "source": "D:\\毕业论文\\src\\StripVisibilityChecks.java"
+    },
+    {
+      "path": "src/SuffixBlockVisibility.java",
+      "bytes": 11169,
+      "sha256": "29bc944788bed6d450f3950ba87a5846003774dfcfd9f62ece7333c8fa1bf915",
+      "git_blob_sha1": "24daf6afa5511bdbb9f8c68fa77228034aeccf83",
+      "source": "D:\\毕业论文\\src\\SuffixBlockVisibility.java"
+    },
+    {
+      "path": "src/SuffixBlockVisibilityNoStats.java",
+      "bytes": 10446,
+      "sha256": "e647bb3af895fb7722ddd4f9ca7db2c1c3996220b7f3c2c1ad319de979a15291",
+      "git_blob_sha1": "b731347f63bf23decee5fa6ff4d9805af440a6bb",
+      "source": "D:\\毕业论文\\src\\SuffixBlockVisibilityNoStats.java"
+    },
+    {
+      "path": "src/SuffixCombinationExperiment.java",
+      "bytes": 18918,
+      "sha256": "c45d801fa93fe3e2087e1f16d3cedf1763eb680155286552c066083f18d65ea0",
+      "git_blob_sha1": "686701eebc17eec24393bbf36010a826456f3a90",
+      "source": "D:\\毕业论文\\src\\SuffixCombinationExperiment.java"
+    },
+    {
+      "path": "src/SuffixFreezeBoundaryChecks.java",
+      "bytes": 3787,
+      "sha256": "74864995057a758dd99e17db163d23055478e278895d75993421aa7be72d02ac",
+      "git_blob_sha1": "6bdb33cb034c1825f2b6085f5a0007cb3029b914",
+      "source": "D:\\毕业论文\\src\\SuffixFreezeBoundaryChecks.java"
+    },
+    {
+      "path": "src/SuffixSummerTransferExperiment.java",
+      "bytes": 17888,
+      "sha256": "c2428f9b93e739c39ac7af1a180783e06acb616b7eee16f9a2d2af989c4033b0",
+      "git_blob_sha1": "e751e30efb7bd84e6f375e68218ccbaef5c62cf6",
+      "source": "D:\\毕业论文\\src\\SuffixSummerTransferExperiment.java"
+    },
+    {
+      "path": "src/SuffixTemporalAdapter.java",
+      "bytes": 3818,
+      "sha256": "29d56834d29819b89daf1d166195ac2b6447cb0cd2dae3134115dad5efed1197",
+      "git_blob_sha1": "a70609bf55d85ffabb62d7cbf2c915e8d4aa4819",
+      "source": "D:\\毕业论文\\src\\SuffixTemporalAdapter.java"
+    },
+    {
+      "path": "src/SuffixVisibilityChecks.java",
+      "bytes": 8710,
+      "sha256": "0cb04c42e16984ab751c6b4a65b10c7e98fb0cacd0c95b73380809715432d61b",
+      "git_blob_sha1": "f169394a941938e0cf9589f747f8113ad62c62f9",
+      "source": "D:\\毕业论文\\src\\SuffixVisibilityChecks.java"
+    },
+    {
+      "path": "src/SunlightIntervalChecks.java",
+      "bytes": 5102,
+      "sha256": "2079220af4c89b7dd7fd5b5922958ff50554b7de9c33034c42ad38b4fa06c7d1",
+      "git_blob_sha1": "3793f8c44da5b9acc560611c568acd7eba6c171f",
+      "source": "D:\\毕业论文\\src\\SunlightIntervalChecks.java"
+    },
+    {
+      "path": "src/SunlightIntervalStats.java",
+      "bytes": 2251,
+      "sha256": "0340e5958ef01e8395efb9cabb168d03f4c1ee02a448bc1d2e181573ecf51db0",
+      "git_blob_sha1": "86fbdc10a15474d090c538e45651cb3b9d2e1728",
+      "source": "D:\\毕业论文\\src\\SunlightIntervalStats.java"
+    },
+    {
+      "path": "src/TimeSearchPairedBenchmark.java",
+      "bytes": 29437,
+      "sha256": "f350660637ee8b51d81ced9a60b3e40f3808c086e04becd1f9928e7d65fdcef9",
+      "git_blob_sha1": "b7e7ab9fcc11c9e21b29e6bbebf6ca58015f087a",
+      "source": "D:\\毕业论文\\src\\TimeSearchPairedBenchmark.java"
+    },
+    {
+      "path": "src/TimeStepBaseline.java",
+      "bytes": 10962,
+      "sha256": "b4822144f54ddb3bc52180daf44b590085c27ec43aa0db7a6562da72d2fee6f7",
+      "git_blob_sha1": "12a053f4fdf8df0b7cc35ab823ef2dd53b667a60",
+      "source": "D:\\毕业论文\\src\\TimeStepBaseline.java"
+    },
+    {
+      "path": "src/TimeStructureMinimal.java",
+      "bytes": 29697,
+      "sha256": "6b02422e1d9466cb278a0408842a37d65d51be92438e5c59c48477814063d140",
+      "git_blob_sha1": "4dc4384e0a09f501c8d7fe60bcccf02dcfd9474f",
+      "source": "D:\\毕业论文\\src\\TimeStructureMinimal.java"
+    },
+    {
+      "path": "src/TimeStructureSearch.java",
+      "bytes": 9143,
+      "sha256": "cb2b2c8dcd5023830a5f050657a8d785c863d2d45317c82756c48658a89b9eee",
+      "git_blob_sha1": "9e02cedb7af550b3b555040c1b4616d896e24b86",
+      "source": "D:\\毕业论文\\src\\TimeStructureSearch.java"
+    },
+    {
+      "path": "src/TwoBoundaryRegionExperiment.java",
+      "bytes": 24915,
+      "sha256": "137d756349efc12b4ba2e0c2a2b8ea53a32b5006e1d398ad2efc9ec4da085e1b",
+      "git_blob_sha1": "a8cca477009cfb9ee5386591abdc516391f86b82",
+      "source": "D:\\毕业论文\\src\\TwoBoundaryRegionExperiment.java"
+    },
+    {
+      "path": "src/VisibilityResult.java",
+      "bytes": 441,
+      "sha256": "832af0a4cb2599e28e80896c12507aacbf58b5b47eeae9d72269b17271879405",
+      "git_blob_sha1": "0d3284669e94f3898cb3f25506125075fad56855",
+      "source": "D:\\毕业论文\\src\\VisibilityResult.java"
+    },
+    {
+      "path": "src/VisibilityStatus.java",
+      "bytes": 246,
+      "sha256": "0ab0a32c98609657bdf58a8974520012d0d73dd25161355a938c6ac85affe1a5",
+      "git_blob_sha1": "571842733daccd5952934e27dc4ed9f77d7e6c3a",
+      "source": "D:\\毕业论文\\src\\VisibilityStatus.java"
+    },
+    {
+      "path": "src/WinterPixelDiagnostics.java",
+      "bytes": 6451,
+      "sha256": "cff80bc82e8108586d6954ab24616d3d3c6f9443b5953cfcbfd9bac2fe7c5d34",
+      "git_blob_sha1": "a19e1c88bd302146ab4a69d16079505f8cd150bc",
+      "source": "D:\\毕业论文\\src\\WinterPixelDiagnostics.java"
+    },
+    {
+      "path": "src/ZeroPolicy.java",
+      "bytes": 149,
+      "sha256": "d1ae7880779a111a74f9dcda52fe29b7f298d3546e6fc20270ba2272812b28bc",
+      "git_blob_sha1": "2c502a8af142cc1d2ed92b84d14e5f638c5441c7",
+      "source": "D:\\毕业论文\\src\\ZeroPolicy.java"
+    },
+    {
+      "path": "毕业论文研究基线、实现目标与预期成果.md",
+      "bytes": 67711,
+      "sha256": "849a4949b5a43aa774e7dc195c90ada5962715e93d4d5d8c2fe20933ae4a20a9",
+      "git_blob_sha1": "9506354004be7ae33a609b57e4d792e941543db0",
+      "source": "D:\\毕业论文\\毕业论文研究基线、实现目标与预期成果.md",
+      "source_sha256": "eb8a7f95ee934b67b0669c8ad697e0d6083e4159cef7f3af52eed1ddbf9809a7",
+      "transformation": "prepend dated historical-reading notice"
+    },
+    {
+      "path": "科研路线与进度.md",
+      "bytes": 298417,
+      "sha256": "d74f021f03adea5328b1a49c9691f8e69d06649db4c6b1d7c20ce7412133cc88",
+      "git_blob_sha1": "c9738ebf7a200bb9c3c5a531babf9943c1e91953",
+      "source": "D:\\毕业论文\\科研路线与进度.md",
+      "source_sha256": "bd752cd8f948d33946ce9e798ef75cce214b42b07fd4fd8aa5326141af3acc6d",
+      "transformation": "prepend dated historical-reading notice"
+    },
+    {
+      "path": "阶段交接总结.md",
+      "bytes": 149410,
+      "sha256": "3ad20f7c34f31039d13b22e6096b8de5abcadc8380f694461d60bc44a4d073a6",
+      "git_blob_sha1": "8708d9a42d66a7f3dcb26dc88dfeef36c3399fe5",
+      "source": "D:\\毕业论文\\阶段交接总结.md",
+      "source_sha256": "759636c292162b5ff58feea7eda78755ca59699a7a443bf02bffc3465865a185",
+      "transformation": "prepend dated historical-reading notice"
+    }
+  ]
+}

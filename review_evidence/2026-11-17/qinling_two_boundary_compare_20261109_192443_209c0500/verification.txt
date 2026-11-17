@@ -1,0 +1,7 @@
+QINLING_TWO_BOUNDARY_RECORD_CHECK_PASS
+compared_method_pixels=32768 baseline_historical_pixels=16384 baseline_saved_traces=6 candidate_replay_traces=3
+failures=0 input_and_reference_load_sec=0.384154700000
+Single-pass elapsed times are diagnostic. No warmups or formal performance repeats were run.
+Baseline calls are observable at Oracle boundary; internal cache hits/purposes are not exposed.
+Reference labels are evaluation-only; no classifier or fallback scheduler is implemented.
+PSD/boundary/window errors and NOT_APPLICABLE are outcomes, not implementation failures. Passing record checks is not method acceptance.

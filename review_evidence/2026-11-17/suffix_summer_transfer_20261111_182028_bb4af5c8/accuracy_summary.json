@@ -1,0 +1,23 @@
+{
+  "reference": "existing summer fixed1, conditional discrete reference, reused not rerun",
+  "total_pixels": 16384,
+  "common_valid": 16384,
+  "unknown_or_invalid": 0,
+  "MAE_minutes": 2.969152701481903e-14,
+  "RMSE_minutes": 1.0095193923125128e-13,
+  "MAX_minutes": 5.684341886080801e-13,
+  "error_bins": {
+    "NUMERIC_ZERO": 16384
+  },
+  "above_threshold_counts": {
+    "0.1": 0,
+    "1": 0,
+    "5": 0,
+    "10": 0,
+    "30": 0
+  },
+  "branch_reason_counts": {
+    "TWO_BOUNDARY/NO_DARK_FALLBACK": 16384
+  },
+  "two_spatial_methods_equal": true
+}

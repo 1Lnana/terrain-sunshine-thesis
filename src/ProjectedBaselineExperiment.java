@@ -161,6 +161,25 @@ public final class ProjectedBaselineExperiment {
     // 仅替换单时刻空间查询；所有太阳、时间调度、缓存与积分分支共用旧实现。
     static Pixel calculate(Inputs in, Receiver receiver, String method, RunStatistics stats,
             BlockUpperBoundVisibility spatialIndex, BlockUpperBoundVisibility.Counters spatialCounts) {
+        return calculateWithSpatialQuery(in, receiver, method, stats,
+                spatialIndex == null ? null : spatialIndex::visibleAt, spatialCounts);
+    }
+
+    @FunctionalInterface
+    interface SpatialQuery {
+        VisibilityResult visibleAt(CoordinateContract contract, int row, int col,
+                double altitude, double bearing, AngleReference reference,
+                SearchConfig search, BlockUpperBoundVisibility.Counters counts);
+    }
+
+    static Pixel calculateWithSpatialQuery(Inputs in, Receiver receiver, String method, RunStatistics stats,
+            SpatialQuery spatialIndex, BlockUpperBoundVisibility.Counters spatialCounts) {
+        return calculateWithSpatialQuery(in, receiver, method, stats, spatialIndex, spatialCounts, true);
+    }
+
+    // The legacy signature always retains per-ray timing. Independent NoStats callers explicitly disable it.
+    static Pixel calculateWithSpatialQuery(Inputs in, Receiver receiver, String method, RunStatistics stats,
+            SpatialQuery spatialIndex, BlockUpperBoundVisibility.Counters spatialCounts, boolean timeSpatialQueries) {
         int step = Integer.parseInt(method.substring(method.indexOf('_') + 1, method.length() - 3));
         Pixel pixel = new Pixel();
         pixel.day = TimeStepBaseline.daylight(receiver.lat, in.dec);
@@ -175,10 +194,11 @@ public final class ProjectedBaselineExperiment {
                         Math.max(1e-7, angles[0]), gridBearing, AngleReference.GRID_NORTH_CLOCKWISE, in.search, stats).status;
             } else {
                 // 与原核心同样每射线计时并调用record；算法的块计数成本不隐藏。
-                long queryStart = System.nanoTime();
+                long queryStart = timeSpatialQueries ? System.nanoTime() : 0;
                 VisibilityResult result = spatialIndex.visibleAt(in.contract, receiver.row, receiver.col,
                         Math.max(1e-7, angles[0]), gridBearing, AngleReference.GRID_NORTH_CLOCKWISE, in.search, spatialCounts);
-                if (stats != null) stats.record(result.status, result.spatialSamples, System.nanoTime() - queryStart);
+                if (stats != null) stats.record(result.status, result.spatialSamples,
+                        timeSpatialQueries ? System.nanoTime() - queryStart : 0);
                 status = result.status;
             }
             return status == VisibilityStatus.VISIBLE ? 1 : status == VisibilityStatus.SHADED ? 0 : -1;

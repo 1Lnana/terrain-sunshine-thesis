@@ -1,0 +1,69 @@
+{
+  "status": "VERIFIED_FIVE_WIDTH_SENSITIVITY",
+  "psd_files_identical_to_historic_binary": 18,
+  "pixels_per_file": 16384,
+  "fingerprints_verified": 18,
+  "paired_records": 15,
+  "MAE_min": 0.00250244140625,
+  "MAX_error_min": 18.0,
+  "error_gt1_pixels": 6,
+  "results": {
+    "binarylocal_30min": {
+      "median_total_sec": 3.462860699,
+      "saving_percent": 0.0,
+      "all_paired_faster": null,
+      "spatial_samples": 110493448,
+      "skipped_samples": 0,
+      "block_tests": 0,
+      "index_payload_bytes": 0
+    },
+    "block4binarylocal_30min": {
+      "median_total_sec": 2.346997499,
+      "saving_percent": 32.223739185415035,
+      "all_paired_faster": true,
+      "spatial_samples": 6833675,
+      "skipped_samples": 103659773,
+      "block_tests": 37741253,
+      "index_payload_bytes": 71289
+    },
+    "block8binarylocal_30min": {
+      "median_total_sec": 1.6224224,
+      "saving_percent": 53.147916101028244,
+      "all_paired_faster": true,
+      "spatial_samples": 10763318,
+      "skipped_samples": 99730130,
+      "block_tests": 20077807,
+      "index_payload_bytes": 18225
+    },
+    "block16binarylocal_30min": {
+      "median_total_sec": 1.395596901,
+      "saving_percent": 59.69815068209303,
+      "all_paired_faster": true,
+      "spatial_samples": 17275977,
+      "skipped_samples": 93217471,
+      "block_tests": 10665319,
+      "index_payload_bytes": 4761
+    },
+    "block32binarylocal_30min": {
+      "median_total_sec": 1.500393101,
+      "saving_percent": 56.671860885617455,
+      "all_paired_faster": true,
+      "spatial_samples": 28287542,
+      "skipped_samples": 82205906,
+      "block_tests": 5825905,
+      "index_payload_bytes": 1296
+    },
+    "block64binarylocal_30min": {
+      "median_total_sec": 1.9965337,
+      "saving_percent": 42.34438305368287,
+      "all_paired_faster": true,
+      "spatial_samples": 49200131,
+      "skipped_samples": 61293317,
+      "block_tests": 3354810,
+      "index_payload_bytes": 324
+    }
+  },
+  "block32_slower_than16_percent": 7.509059379890393,
+  "selected_width": 16,
+  "scope": "best among tested five widths at Qinling winter only; not global optimum or temporal safety proof"
+}

@@ -1,0 +1,16 @@
+{
+  "original_command": [
+    "python",
+    "scripts/audit_suffix_summer_transfer.py",
+    "user_runs\\suffix_summer_transfer_20261111_182028_bb4af5c8"
+  ],
+  "exit_code": 1,
+  "stage": "optional Matplotlib import after numeric audit and all summary files were written",
+  "exception": "ImportError: numpy.core.multiarray failed to import; existing NumPy 2.2.6 / Matplotlib binary ABI mismatch",
+  "numeric_record_audit_status": "PASS_FROZEN_SUMMER_TRANSFER_RECORDS",
+  "numeric_audit_file_sha256": "a50ca2a151d596b763e47bf495dc08eb6d3a3b0ed2d410f3bb0b49313410b7b7",
+  "frozen_audit_script_modified": false,
+  "dependencies_installed_or_changed": false,
+  "fallback": "render_saved_figures.py, standard-library SVG plus existing Pillow PNG",
+  "scientific_or_performance_rerun": false
+}

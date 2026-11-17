@@ -1,0 +1,9 @@
+{
+  "status": "GENERATED_FROM_AUDITED_RECORDS_FALLBACK",
+  "svg_standard_library": true,
+  "png_existing_pillow": true,
+  "new_dependencies_installed": false,
+  "original_optional_matplotlib_step_failed": "NumPy 2.2.6 vs existing Matplotlib extension ABI; no environment edits",
+  "frozen_audit_script_unchanged": true,
+  "new_visibility_or_time_queries": 0
+}

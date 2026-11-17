@@ -1,0 +1,3 @@
+method,rays,interpolations,suffix_samples,blocks,eligibility_checks,extra_height_tests,build_sec_median,algorithm_sec_median,full_sec_median,index_payload_bytes
+dual_b,298699,7614625,0,3332836,0,0,0.0002131,0.30062385,0.34545355,4761
+dual_suffix,298699,5656088,1958537,3332836,748118,1488652,0.00021335,0.28721030000000003,0.3367838,4761

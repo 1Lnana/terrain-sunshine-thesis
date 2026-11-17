@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "revision": "text-first, methods once, results once",
+  "pdf_pages": 13,
+  "page_layout": [
+    {
+      "page": 1,
+      "title": "1  研究问题与共同约定",
+      "bottom_of_body": 147.27999999999997
+    },
+    {
+      "page": 2,
+      "title": "2  方法 A：全天粗查＋中点检查＋二分细化",
+      "bottom_of_body": 194.27999999999997
+    },
+    {
+      "page": 3,
+      "title": "3  方法 B：以昼中亮点为锚点的纯两端搜索",
+      "bottom_of_body": 194.27999999999997
+    },
+    {
+      "page": 4,
+      "title": "4  方法 C：双端主分支＋暗时回退",
+      "bottom_of_body": 214.27999999999997
+    },
+    {
+      "page": 5,
+      "title": "5  空间分块：原像元计算与辅助索引",
+      "bottom_of_body": 142.27999999999997
+    },
+    {
+      "page": 6,
+      "title": "6  看图解释：怎样使用这个高程上界",
+      "bottom_of_body": 54.94666666666666
+    },
+    {
+      "page": 7,
+      "title": "7  分块结果：相同时间采样下保持日总时长",
+      "bottom_of_body": 50.0
+    },
+    {
+      "page": 8,
+      "title": "8  块宽选择：五个候选的同批对照",
+      "bottom_of_body": 50.0
+    },
+    {
+      "page": 9,
+      "title": "9  空间迁移：换日期与独立地区",
+      "bottom_of_body": 50.0
+    },
+    {
+      "page": 10,
+      "title": "10  组合验证：双端时间搜索与16格分块",
+      "bottom_of_body": 50.0
+    },
+    {
+      "page": 11,
+      "title": "11  独立实验及现有结果",
+      "bottom_of_body": 147.27999999999997
+    },
+    {
+      "page": 12,
+      "title": "12  真实失败案例与地形解释",
+      "bottom_of_body": 158.27999999999997
+    },
+    {
+      "page": 13,
+      "title": "13  文献核查与讲解时的结论边界",
+      "bottom_of_body": 261.28
+    }
+  ],
+  "text_extraction": "PASS",
+  "new_visibility_queries": 0,
+  "illustration": "AI concept diagram, schematic grid count; ray geometry visually corrected",
+  "references": {
+    "S1": {
+      "path": "D:\\毕业论文\\src\\BinaryLocalRefinement.java",
+      "sha256": "463f8669161dea7d19193dcb062b9423461546a581065043891331193ac5ac4a"
+    },
+    "S2a": {
+      "path": "D:\\毕业论文\\src\\AdaptiveTimeV2Local.java",
+      "sha256": "f7a9132742754fb705ff72819f9d2a993d00578b6cfbf6a094d74376ac5bc55e"
+    },
+    "S2b": {
+      "path": "D:\\毕业论文\\src\\TimeStepBaseline.java",
+      "sha256": "b4822144f54ddb3bc52180daf44b590085c27ec43aa0db7a6562da72d2fee6f7"
+    },
+    "S3": {
+      "path": "D:\\毕业论文\\src\\TimeStructureSearch.java",
+      "sha256": "cb2b2c8dcd5023830a5f050657a8d785c863d2d45317c82756c48658a89b9eee"
+    },
+    "S4": {
+      "path": "D:\\毕业论文\\src\\TimeSearchPairedBenchmark.java",
+      "sha256": "f350660637ee8b51d81ced9a60b3e40f3808c086e04becd1f9928e7d65fdcef9"
+    },
+    "S5": {
+      "path": "D:\\毕业论文\\src\\LimitedDarkBinaryRefinement.java",
+      "sha256": "02800b95ed3137c692fd84a5ec46929415d1223499075953ed0e12d06d442ee6"
+    },
+    "S6": {
+      "path": "D:\\毕业论文\\src\\Block16DirectionVisibility.java",
+      "sha256": "4a97e43d1b6a6034a3b65bb840564943889fe4eb3c51372b5219d3120ec9ed12"
+    },
+    "S7": {
+      "path": "D:\\毕业论文\\user_runs\\time_search_paired_20261110_105831_3515915b\\summary.csv",
+      "sha256": "23c2d18ce8771f6329509c7e9649ae4ff391e2f84ba732d0f341910d979395cc"
+    },
+    "S8": {
+      "path": "D:\\毕业论文\\user_runs\\qinling_time_search_paired_20261110_125802_39f7a1e4\\summary.csv",
+      "sha256": "be57f18410b8e62ab7c22bdb74f3136a41684cb2792e8e97991370bc0fe070d8"
+    },
+    "S9": {
+      "path": "D:\\毕业论文\\user_runs\\qinling_two_boundary_compare_20261109_192443_209c0500\\summary.csv",
+      "sha256": "b652fef7ffce327451c41952288698253fe29cf5308588f4cb73ecc5242c096e"
+    },
+    "S10": {
+      "path": "D:\\毕业论文\\user_runs\\interval_certificate_minimal_001\\results\\rays.csv",
+      "sha256": "69a0bb56bec00a11178c15075d3d0e607d4e53dbfa2dcf0dc64a1ea6011ec1c4"
+    },
+    "S11": {
+      "path": "D:\\毕业论文\\user_runs\\qinling_spatial_ablation_001\\summary.csv",
+      "sha256": "12835e4574736b3e0c0e546807586720946ca3c2c5ad0fb4fef1100fcf30d0f9"
+    },
+    "S12": {
+      "path": "D:\\毕业论文\\user_runs\\qinling_spatial_sensitivity_001\\summary.csv",
+      "sha256": "a4dee15ee60cc820dd30232aba99a1f8797adc33a34a8e305d593d8288cc3835"
+    },
+    "S13": {
+      "path": "D:\\毕业论文\\user_runs\\qinling_spatial_summer_001\\summary.csv",
+      "sha256": "7129527b7ee7d2a5f79ef86cba6744e6121623f7b0cc7499ef54ad043567732f"
+    },
+    "S14": {
+      "path": "D:\\毕业论文\\user_runs\\huabei_spatial_spring_001\\summary.csv",
+      "sha256": "0e86cc10902c7f558faf8617ebda5c2f82f7fac077371c5af7de8f929852753a"
+    }
+  },
+  "dependencies": "workspace-local reportlab/pypdfium2; existing scientific packages unchanged",
+  "remaining_external_item": "identity of the teacher-specific paper"
+}

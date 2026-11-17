@@ -1,55 +1,31 @@
-# 复杂地形潜在日照时长计算：源码审查版本
+# 地形日照时长研究：GPT 阅读入口
 
-本仓库用于毕业论文项目的代码和研究证据审查。更新：2026-11-02。
+更新：2026-11-17。本仓库是论文研究的**精选审查快照**，用于让有仓库访问权限的 GPT 阅读方法、源码和实验依据。主工作区为本地 `D:\毕业论文`。不包含原始 DEM 或全部逐射线/逐像元输出，不能仅凭此快照宣称已重新运行实验。
 
-**当前状态：**保留原逐点遮挡、原16格分块及独立条带候选。条带仅完成最小人工正确性检查，尚未运行秦岭正式性能实验、尚未确立创新性。fixed1是一分钟条件参考，不是真值；已有时间采样最大18分钟误差不能由空间优化自动消除。
+## 建议阅读顺序
 
-## 审查入口
+1. [给 GPT 的阅读与回答要求](docs/GPT_REVIEW.md)：新对话可直接提供这个链接。
+2. [当前研究状态](docs/CURRENT_STATUS_2026-11-17.md)：先确认哪些已完成、哪些未完成。
+3. [完整方法说明](docs/METHODS_AND_RESULTS_2026-11-17.md)：全天粗查＋二分、纯两端、双端＋暗时回退，以及16×16上界筛选。
+4. [可直接检索的实验表格](docs/EXPERIMENT_RESULTS_2026-11-17.md)：时间、分块、组合及后缀增量，分别列计时口径和误差。
+5. [常见疑问](docs/RESEARCH_QA.md)与[论文/专利核查](docs/LITERATURE_CHECK.md)。
 
-1. [GPT审查任务](docs/GPT_REVIEW.md)：审查范围、关键问题与证据边界。
-2. [实施路线](科研路线与进度.md)：T0～T4及当前计时／摊销计划。
-3. [研究基线](毕业论文研究基线、实现目标与预期成果.md)：设计推导、文献比较和贡献边界。
-4. [交接记录](阶段交接总结.md)：最新检查点置顶，其下为历史记录。
+## 组会材料与证据
 
-| 位置 | 内容 |
-|---|---|
-| src/ControlledVisibility.java | 原固定距离逐点遮挡查询 |
-| src/BlockUpperBoundVisibility.java | 原整块最高高程筛选，保留16格对照 |
-| src/StripUpperBoundVisibility.java | 独立条带候选，未接正式区域驱动 |
-| src/StripVisibilityChecks.java | 三方人工正确性与方向统计检查 |
-| src/ProjectedBaselineExperiment.java | 既有区域驱动，已有结果不代表条带性能 |
-| configs/ | 既有配置，多数依赖未上传的本地DEM和user_runs路径 |
-| scripts/run_strip_checks.ps1 | Windows隔离编译、人工检查及日志保存 |
-| review_evidence/ | 精选原始记录的文本副本和来源／SHA-256清单 |
+- [完整13页讲解PDF](reports/group_meeting_2026-11-17.pdf)
+- [分块实验3页补充](reports/spatial_results_2026-11-17.pdf) · [双端组合1页补充](reports/dual_block_combination_2026-11-17.pdf)
+- [讲解提纲](docs/GROUP_MEETING_OUTLINE.md) · [源文件与实验目录索引](review_evidence/2026-11-17/README.md)
+- [当前 Java 源码](src/) · [本次文件来源与指纹](review_evidence/2026-11-17/snapshot_manifest.json)
+- [研究基线](毕业论文研究基线、实现目标与预期成果.md) · [科研路线与进度](科研路线与进度.md) · [阶段交接](阶段交接总结.md)
 
-## 已有最小验证
+## 阅读时必须保留的结论边界
 
-2026-10-31人工检查：35条定向用例＋1,600条固定种子射线，14,859项断言通过；三方状态、首次停止距离与样点守恒一致，覆盖五种返回状态。人工额外跳过115段／413点，按16个22.5度方向箱计数。**这些不是实际DEM性能结果，也不构成对所有输入正确性的证明。**
+- 时间法减少查询时刻；空间分块减少每次查询的插值。16×16不合并目标像元，输出仍为原90米格网。
+- 双端＋暗时回退已有华北春季、秦岭冬季同批计时；秦岭日总最大误差由18增至27分钟，早边界最大误差57分钟，均须同时报告。
+- 双端与16格分块**已经组合验证**，11月11日四组比较还包括安全后缀。旧文档中的“尚未组合”是历史状态。
+- fixed1是当前离散空间模型下的1分钟条件参考。日总吻合不等于任意短窗、分钟状态和边界全部正确。
+- 后缀是块内一段射线后半部分的安全跳过；不是文件名后缀，也不是新的时间搜索。
+- 条带路线11月2日因实际计时更慢而停止。旧文件保留作历史，不作为当前任务。
+- 全年365天对照、完整专利方法的同口径性能比较、普适精度保证与原创性认定尚未完成。
 
-证据见[最小检查目录](review_evidence/strip_checks_20261031_193851_3c31317c/)及[证据清单](review_evidence/manifest.json)。其他精选目录为历史已有实验摘要，本次上传没有重跑实验。
-
-## 复现人工检查
-
-Windows、JDK17，在仓库根目录执行：
-
-```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\run_strip_checks.ps1
-```
-
-默认JDK为原电脑路径，其他机器通过 `-Jdk "C:\path\to\jdk-17"` 替换为实际JDK根目录。Bypass仅本次子进程，不改变系统执行策略。每次输出新建于user_runs/，不会覆盖旧记录；不运行真实地形或性能实验。
-
-其他平台可仅编译人工检查与Java标准库依赖：
-
-```sh
-mkdir -p build-review
-javac -encoding UTF-8 -Xlint:all -d build-review src/AsciiGrid.java src/ZeroPolicy.java src/CoordinateContract.java src/AngleReference.java src/SearchConfig.java src/VisibilityResult.java src/VisibilityStatus.java src/RunStatistics.java src/ControlledVisibility.java src/BlockUpperBoundVisibility.java src/StripUpperBoundVisibility.java src/StripVisibilityChecks.java
-java -cp build-review StripVisibilityChecks review-check-output
-```
-
-输出目录review-check-output必须不存在，已存在时更换新目录名。此跨平台命令仅供复现，本次上传未在其他平台验证。
-
-## 上传范围与限制
-
-包含现有Java源码、配置、脚本、研究文字和精选审查证据。约2.43GB原始数据、完整user_runs/、编译产物、展示图片及机器专属IDE设置不上传。旧user_runs路径指本地原件，由证据清单映射到精选副本；未精选的历史原始结果不能仅凭文字视为已独立复核。历史展示HTML和图片不在本审查快照。
-
-[上传前README存档](docs/README_上传前存档.md)仅作历史资料，不能据旧任务恢复整套V1复现实验。
+仓库保持私有。未授权的 GPT 或普通网页访问不能读取私有内容；在 ChatGPT 中连接 GitHub并授权此仓库后，再提供阅读入口。

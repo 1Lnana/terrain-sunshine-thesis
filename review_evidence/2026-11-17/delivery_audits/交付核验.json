@@ -1,0 +1,52 @@
+{
+  "new_visibility_queries": 0,
+  "experiments_reused": [
+    {
+      "scene": "华北平原 · 2023-03-21",
+      "directory": "D:\\毕业论文\\user_runs\\time_search_paired_20261110_105831_3515915b",
+      "pixels_checked_per_method": 16384,
+      "formal_files_checked": 6,
+      "paired_medians_recalculated": true
+    },
+    {
+      "scene": "秦岭山地 · 2023-12-21",
+      "directory": "D:\\毕业论文\\user_runs\\qinling_time_search_paired_20261110_125802_39f7a1e4",
+      "pixels_checked_per_method": 16384,
+      "formal_files_checked": 6,
+      "paired_medians_recalculated": true
+    }
+  ],
+  "checks": [
+    {
+      "scene": "华北平原 · 2023-03-21",
+      "method": "binarylocal_30min",
+      "integrated_pixels": 16384
+    },
+    {
+      "scene": "华北平原 · 2023-03-21",
+      "method": "two_boundary_limited5",
+      "integrated_pixels": 16384
+    },
+    {
+      "scene": "秦岭山地 · 2023-12-21",
+      "method": "binarylocal_30min",
+      "integrated_pixels": 16384
+    },
+    {
+      "scene": "秦岭山地 · 2023-12-21",
+      "method": "two_boundary_limited5",
+      "integrated_pixels": 16384
+    }
+  ],
+  "pure_two_boundary_comparison_pixels_checked": 16384,
+  "status": "PASS",
+  "real_terrain_profiles_checked": 3,
+  "figure_count": 8,
+  "limitations": [
+    "The teacher-specific paper identity remains unconfirmed.",
+    "No successful original-paper PDF download; author HTML method text verified by web search.",
+    "Matplotlib import failed due to NumPy ABI; deterministic Pillow plotting used.",
+    "No fresh solar or visibility experiment; all trial data reused and checked from saved records.",
+    "Counts describe sampled reference nodes and finite-distance discrete terrain model."
+  ]
+}

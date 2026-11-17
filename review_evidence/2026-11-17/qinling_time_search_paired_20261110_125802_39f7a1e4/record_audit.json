@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "run": "user_runs\\qinling_time_search_paired_20261110_125802_39f7a1e4",
+  "new_scientific_queries_in_audit": 0,
+  "recorded_experiment_queries": 4692052,
+  "formal_pairs": 3,
+  "formal_pixel_scalar_checks": 98304,
+  "integration_nodes_reconstructed": 1172805,
+  "evaluated_nodes_checked": 1173013,
+  "candidate_integration_and_evaluated_nodes_equal_prior": true,
+  "accuracy": {
+    "binarylocal_30min": {
+      "repeats": 3,
+      "queries_per_pass": 862525,
+      "spatial_samples_per_pass": 110493448,
+      "valid_pixels": 16384,
+      "unknown_pixels": 0,
+      "error_gt1_pixels": 6,
+      "error_gt5_pixels": 3,
+      "boundary_mismatch_pixels": 3,
+      "window_mismatch_pixels": 7,
+      "two_boundary_pixels": 0,
+      "dark_fallback_pixels": 0,
+      "limited5_pixels": 0,
+      "estimated_zero_pixels": 0,
+      "MAE_min": 0.00250244140625,
+      "MAX_abs_error_min": 18.0,
+      "first_boundary_MAX_min": 10.0,
+      "last_boundary_MAX_min": 17.0,
+      "integration_nodes": 862525,
+      "evaluated_nodes": 862525
+    },
+    "two_boundary_limited5": {
+      "repeats": 3,
+      "queries_per_pass": 310488,
+      "spatial_samples_per_pass": 34102634,
+      "valid_pixels": 16384,
+      "unknown_pixels": 0,
+      "error_gt1_pixels": 10,
+      "error_gt5_pixels": 7,
+      "boundary_mismatch_pixels": 4,
+      "window_mismatch_pixels": 11,
+      "two_boundary_pixels": 16175,
+      "dark_fallback_pixels": 209,
+      "limited5_pixels": 140,
+      "estimated_zero_pixels": 136,
+      "MAE_min": 0.00689697265625,
+      "MAX_abs_error_min": 27.0,
+      "first_boundary_MAX_min": 57.0,
+      "last_boundary_MAX_min": 17.0,
+      "integration_nodes": 310280,
+      "evaluated_nodes": 310488
+    }
+  },
+  "all_pairs_candidate_faster": true,
+  "paired_saved_fraction_range": [
+    0.678911911467784,
+    0.7004261969371248
+  ],
+  "median_time_saved_fraction": 0.678911911467784,
+  "manifest_fingerprints_checked": 238,
+  "protected_unchanged": 408,
+  "build": {
+    "sources": 60,
+    "classes": 159
+  },
+  "audit_script_sha256": "477165f59048ef07bfdf34aac45b31201bd00cc050983262145e46d5ea64289c",
+  "audit_helper_sha256": "8c45c4b547a5a673b8b9ee9ab8e7271f44fb4f5cc108e29a80ce358c7b52cf8b",
+  "limits": [
+    "Saved-record audit does not independently recompute solar or terrain visibility.",
+    "Diagnostic warmup nodes are fully audited; formal rounds retain scalar results only.",
+    "Known duration and edge errors are outcomes, not a zero-error gate.",
+    "Qinling is the development scene; repetitions do not independently validate five-minute generalization.",
+    "Fixed1 remains a conditional reference; no new spatial-block combination is tested."
+  ]
+}

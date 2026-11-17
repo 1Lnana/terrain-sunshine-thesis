@@ -1,0 +1,1 @@
+receiver_index,row,col,latitude,longitude,day_hex,b_psd_hex,s_psd_hex,reference_psd_hex,queries,status,reason,branch,requests,hits,anchor,boundary,fallback,absolute_error_hex,error_bin

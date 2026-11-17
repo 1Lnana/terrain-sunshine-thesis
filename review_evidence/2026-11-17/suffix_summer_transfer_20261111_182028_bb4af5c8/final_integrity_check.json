@@ -1,0 +1,10 @@
+{
+  "status": "PASS_NUMERICAL_PROVENANCE_AND_FALLBACK_FIGURES",
+  "frozen_source_config_script_files": 167,
+  "original_algorithms_unchanged": true,
+  "numerical_summaries_recomputed": true,
+  "primary_audit_exit_code": 1,
+  "primary_exit_reason_plot_only": true,
+  "no_visibility_time_or_performance_queries_in_this_check": true,
+  "stopped": true
+}

@@ -1,0 +1,60 @@
+{
+  "status": "PASS_FROZEN_SUMMER_TRANSFER_RECORDS",
+  "rays": 298699,
+  "pixels": 16384,
+  "formal_pairs": 10,
+  "warmup_pairs": 3,
+  "paired_ray_status_stop_mismatches": 0,
+  "actual_time_sequence_checked_in_Java": true,
+  "all_requests_nodes_and_pixel_records_match": true,
+  "integration_nodes": 298699,
+  "memo_requests": 298699,
+  "all_26_repeat_scalar_files_match": true,
+  "protected_files": 167,
+  "rules_unchanged": true,
+  "winter_original_record_reaudit": "PASS",
+  "padded_equality_gate_cases": 5,
+  "visibility_or_time_queries_in_this_audit": 0,
+  "totals": {
+    "rays": 298699,
+    "b_interpolations": 7614625,
+    "s_interpolations": 5656088,
+    "suffix_samples": 1958537,
+    "blocks": 3332836,
+    "eligibility_checks": 748118,
+    "end_tests": 493058,
+    "boundary_tests": 995594,
+    "planned_suffixes": 185911,
+    "actual_suffix_segments": 151414,
+    "visible": 175116,
+    "shaded": 123583,
+    "unknown": 0,
+    "point_interpolations": 37033049,
+    "b_skipped": 29418424,
+    "s_skipped": 31376961
+  },
+  "accuracy": {
+    "reference": "existing summer fixed1, conditional discrete reference, reused not rerun",
+    "total_pixels": 16384,
+    "common_valid": 16384,
+    "unknown_or_invalid": 0,
+    "MAE_minutes": 2.969152701481903e-14,
+    "RMSE_minutes": 1.0095193923125128e-13,
+    "MAX_minutes": 5.684341886080801e-13,
+    "error_bins": {
+      "NUMERIC_ZERO": 16384
+    },
+    "above_threshold_counts": {
+      "0.1": 0,
+      "1": 0,
+      "5": 0,
+      "10": 0,
+      "30": 0
+    },
+    "branch_reason_counts": {
+      "TWO_BOUNDARY/NO_DARK_FALLBACK": 16384
+    },
+    "two_spatial_methods_equal": true
+  },
+  "memory_not_exact_peak": true
+}
